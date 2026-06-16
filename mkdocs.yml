@@ -1,0 +1,65 @@
+site_name: Dario Amodei Prediction Tracker
+site_description: >-
+  A citation-grounded, continuously-updated timeline of Dario Amodei's public
+  predictions about AI and Anthropic, scored against observed outcomes.
+site_url: https://sebk4c.github.io/dario-amodei-prediction-tracker/
+repo_url: https://github.com/sebk4c/dario-amodei-prediction-tracker
+repo_name: dario-amodei-prediction-tracker
+docs_dir: Doc
+site_dir: site
+copyright: >-
+  Community research project · not affiliated with Anthropic · all claims link to primary sources.
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - The Paper: index.md
+  - Timeline: timeline.md
+  - Prediction Catalogue: predictions.md
+  - Methodology: methodology.md
+  - Changelog: changelog.md
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sebk4c/dario-amodei-prediction-tracker

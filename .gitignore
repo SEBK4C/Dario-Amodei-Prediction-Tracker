@@ -1,0 +1,19 @@
+# Generated build artifacts — rebuilt by Scripts/build_all.sh and CI.
+site/
+Doc/index.md
+Doc/timeline.md
+Doc/predictions.md
+Doc/changelog.md
+Doc/figures/
+Doc/exports/
+Doc/_pdf_src.md
+Mem/metrics.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store

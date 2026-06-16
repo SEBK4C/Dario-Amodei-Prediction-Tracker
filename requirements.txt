@@ -1,0 +1,6 @@
+# Build dependencies for the Dario Amodei Prediction Tracker.
+# (pandoc + a LaTeX engine are system packages, installed in CI for PDF export.)
+PyYAML>=6.0
+numpy>=1.26
+matplotlib>=3.8
+mkdocs-material>=9.5

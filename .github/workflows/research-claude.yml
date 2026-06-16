@@ -1,0 +1,63 @@
+name: Daily /research (Claude-powered, opt-in)
+
+# The recursive self-improvement step: a daily Claude Code run that reads the
+# research agenda, searches for NEW dated Dario Amodei / Anthropic predictions
+# and fresh status evidence, updates Mem/predictions.yaml (with citations), and
+# opens a pull request.
+#
+# OPT-IN. To enable:
+#   1. Add repository secret  ANTHROPIC_API_KEY
+#   2. Add repository variable ENABLE_CLAUDE_RESEARCH = true
+# Docs: https://docs.claude.com/en/docs/claude-code/github-actions
+# Verify the action version/inputs against the docs before enabling.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *" # before the deterministic refresh + export
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  research:
+    if: ${{ vars.ENABLE_CLAUDE_RESEARCH == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Print research agenda
+        run: python Scripts/research.py --agenda-only | tee agenda.txt
+
+      - name: Run Claude Code to expand & resolve predictions
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            You are maintaining a citation-grounded tracker of Dario Amodei's
+            public predictions. The single source of truth is
+            Mem/predictions.yaml; its schema is in Mem/SCHEMA.md.
+
+            Using the research agenda in agenda.txt:
+            1. RESOLVE predictions whose window has elapsed: find primary-source
+               evidence and set status (achieved/partially/missed), resolved_date,
+               and evidence[].
+            2. STRENGTHEN low-confidence records with better primary sources.
+            3. EXPAND: search for NEW dated Dario Amodei / Anthropic predictions
+               since the last run and add them following the schema EXACTLY.
+
+            Rules: every record needs a working primary_url; quotes must be
+            verbatim; record normalization assumptions in notes. Then run
+            `python Scripts/validate.py` and fix any problems. Do NOT edit files
+            in Doc/ (they are generated). Open a pull request titled
+            "loop: daily /research update" summarizing what changed.
+          claude_args: "--max-turns 40"

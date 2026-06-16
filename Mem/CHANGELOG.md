@@ -1,0 +1,24 @@
+# Changelog
+
+Append-only log of the recursive-improvement loop. Newest entries are inserted
+directly below the marker by `Scripts/research.py`.
+
+<!-- LOOP-ENTRIES -->
+
+## Iteration 1 — 2026-06-16T21:58:24+00:00
+
+- Deterministic refresh: 22 predictions (achieved: 1, in_window: 17, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+
+## Bootstrap — 2026-06-16
+
+- Project created: `Mem/` (data), `Scripts/` (build + science), `Doc/` (paper + site).
+- Seeded the prediction dataset (22 predictions) from primary sources: essays
+  (*Machines of Loving Grace*, *The Urgency of Interpretability*, *The
+  Adolescence of Technology*, *Policy on the AI Exponential*), podcasts (Lex
+  Fridman #452, Dwarkesh), official Anthropic posts (OSTP submission, ASL-3
+  activation, RSP v3.0), and reputable interview coverage (CFR, Axios, Davos,
+  Code with Claude).
+- Implemented the math/thesis tests (calibration, lead/lag, horizon-compression
+  regression, realized-acceleration fit) and figure generation.
+- Wired GitHub Pages export and the daily research loop in CI.

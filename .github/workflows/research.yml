@@ -1,0 +1,48 @@
+name: Daily research loop (deterministic)
+
+# The always-on, no-API half of the recursive-improvement loop. It re-validates
+# the dataset, recomputes the research agenda, bumps the loop counter, appends to
+# the changelog, and commits any changes. The Claude-powered expansion lives in
+# research-claude.yml (opt-in).
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs before the Pages export. Scheduled runs require this file to be on
+    # the repository's DEFAULT branch.
+    - cron: "0 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Validate dataset
+        run: python Scripts/validate.py
+
+      - name: Run deterministic refresh (loop state + changelog + agenda)
+        run: python Scripts/research.py
+
+      - name: Commit loop state if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Mem/loop-state.json Mem/CHANGELOG.md
+          if git diff --staged --quiet; then
+            echo "No loop-state changes to commit."
+          else
+            git commit -m "chore(loop): daily deterministic refresh [skip ci]"
+            git push
+          fi

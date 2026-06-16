@@ -1,0 +1,510 @@
+meta:
+  title: Dario Amodei Prediction Tracker
+  maintained_by: "community (sebk4c/dario-amodei-prediction-tracker)"
+  description: >-
+    Single source of truth for dated public predictions by Dario Amodei (CEO of
+    Anthropic) about AI and Anthropic. Every record links to a primary source;
+    verbal horizons are normalized to a single date (range -> END of range) with
+    the assumption documented in `notes`.
+  last_updated: 2026-06-16
+
+predictions:
+  # ----------------------------------------------------------------------
+  # AGI / "powerful AI" arrival timeline
+  # ----------------------------------------------------------------------
+  - id: powerful_ai_as_early_2026
+    theme: agi_timeline
+    quote: "I think it could come as early as 2026, though there are also ways it could take much longer."
+    speaker: Dario Amodei
+    date_said: 2024-10-11
+    venue: "Machines of Loving Grace (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/essay/machines-of-loving-grace"
+    archive_url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+    predicted_horizon_verbatim: "as early as 2026"
+    predicted_date: 2026-12-31
+    status: in_window
+    confidence: high
+    tags: [powerful_ai_arrival, scaling]
+    evidence:
+      - url: "https://darioamodei.com/essay/machines-of-loving-grace"
+        date: 2024-10-11
+        note: "Primary essay; defines 'powerful AI' (a 'country of geniuses in a datacenter')."
+    notes: >-
+      "Powerful AI" = his AGI-equivalent threshold. Normalized to end of 2026
+      (the earliest year he names). We are inside that window as of 2026-06-16;
+      no consensus declaration of powerful AI yet.
+
+  - id: country_of_geniuses_2026_2027
+    theme: agi_timeline
+    quote: "We could have AI systems equivalent to a 'country of geniuses in a datacenter' as soon as 2026 or 2027."
+    speaker: Dario Amodei
+    date_said: 2025-04-24
+    venue: "The Urgency of Interpretability (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/post/the-urgency-of-interpretability"
+    archive_url: "https://www.lesswrong.com/posts/SebmGh9HYdd8GZtHA/the-urgency-of-interpretability-dario-amodei"
+    predicted_horizon_verbatim: "as soon as 2026 or 2027"
+    predicted_date: 2027-12-31
+    status: in_window
+    confidence: high
+    tags: [powerful_ai_arrival]
+    evidence:
+      - url: "https://techcrunch.com/2025/04/24/anthropic-ceo-wants-to-open-the-black-box-of-ai-models-by-2027"
+        date: 2025-04-24
+        note: "TechCrunch coverage of the essay confirming date and framing."
+    notes: >-
+      Range '2026 or 2027' normalized to end of 2027. Restates the Machines of
+      Loving Grace timeline six months later, providing a second data point for
+      horizon-compression analysis.
+
+  - id: powerful_ai_1_2_years_adolescence
+    theme: agi_timeline
+    quote: "Powerful AI could be as little as 1-2 years away."
+    speaker: Dario Amodei
+    date_said: 2026-01-26
+    venue: "The Adolescence of Technology (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/essay/the-adolescence-of-technology"
+    archive_url: "https://fortune.com/2026/01/27/anthropic-ceo-dario-amodei-essay-warning-ai-adolescence-test-humanity-risks-remedies/"
+    predicted_horizon_verbatim: "as little as 1-2 years away"
+    predicted_date: 2028-01-26
+    status: in_window
+    confidence: high
+    tags: [powerful_ai_arrival]
+    evidence:
+      - url: "https://fortune.com/2026/01/27/anthropic-ceo-dario-amodei-essay-warning-ai-adolescence-test-humanity-risks-remedies/"
+        date: 2026-01-27
+        note: "Fortune coverage of the essay."
+      - url: "https://www.lesswrong.com/posts/kzPQohJakutbtFPcf/dario-amodei-the-adolescence-of-technology"
+        date: 2026-01-26
+        note: "Same-day near-verbatim repost corroborating the '1-2 years' passage."
+    notes: >-
+      Restates the Machines of Loving Grace timeline. '1-2 years' from Jan 2026
+      normalized to end of range (~Jan 2028). Fuller quote: "...although it could
+      also be considerably further out."
+
+  # ----------------------------------------------------------------------
+  # AGI / "powerful AI" arrival timeline (cont.) — additional dated forecasts
+  # ----------------------------------------------------------------------
+  - id: lex452_agi_by_2026_2027
+    theme: agi_timeline
+    quote: "If you just kind of eyeball the rate at which these capabilities are increasing, it does make you think that we'll get there by 2026 or 2027."
+    speaker: Dario Amodei
+    date_said: 2024-11-11
+    venue: "Lex Fridman Podcast #452"
+    primary_url: "https://lexfridman.com/dario-amodei/"
+    archive_url: "https://lexfridman.com/dario-amodei-transcript/"
+    predicted_horizon_verbatim: "by 2026 or 2027"
+    predicted_date: 2027-12-31
+    status: in_window
+    confidence: medium
+    tags: [powerful_ai_arrival]
+    evidence:
+      - url: "https://lexfridman.com/dario-amodei-transcript/"
+        date: 2024-11-11
+        note: "Official transcript page; AGI-timeline discussion (~2:36:52)."
+    notes: "Hedged 'eyeball' inference. Range '2026 or 2027' normalized to end of 2027."
+
+  - id: ostp_powerful_ai_late_2026_early_2027
+    theme: agi_timeline
+    quote: "We expect powerful AI systems will emerge in late 2026 or early 2027. These systems will have intellectual capabilities matching or exceeding that of Nobel Prize winners across most disciplines."
+    speaker: "Anthropic (Dario Amodei, CEO)"
+    date_said: 2025-03-06
+    venue: "Anthropic Recommendations to OSTP for the U.S. AI Action Plan"
+    primary_url: "https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan"
+    archive_url: "https://assets.anthropic.com/m/4e20a4ab6512e217/original/Anthropic-Response-to-OSTP-RFI-March-2025-Final-Submission-v3.pdf"
+    predicted_horizon_verbatim: "late 2026 or early 2027"
+    predicted_date: 2027-03-31
+    status: in_window
+    confidence: high
+    tags: [powerful_ai_arrival]
+    evidence:
+      - url: "https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan"
+        date: 2025-03-06
+        note: "Official Anthropic filing stating the late-2026/early-2027 window."
+    notes: >-
+      Anthropic's most precise public institutional timeline, filed under
+      Amodei's leadership. 'Early 2027' normalized to 2027-03-31.
+
+  - id: davos_2_3_years_better_than_humans
+    theme: agi_timeline
+    quote: "I don't know if it'll be 2027. I think it's plausible it could be longer than that... [when] AI systems [are] better than almost all humans at almost everything."
+    speaker: Dario Amodei
+    date_said: 2026-01-21
+    venue: "WSJ / CNBC interviews at the World Economic Forum, Davos 2026"
+    primary_url: "https://www.cnbc.com/2026/01/21/cnbc-excerpts-cnbc-broadcasts-live-from-davos-switzerland-today-wednesday-january-21.html"
+    archive_url: ""
+    predicted_horizon_verbatim: "next two or three years"
+    predicted_date: 2029-12-31
+    status: in_window
+    confidence: medium
+    tags: [powerful_ai_arrival]
+    evidence:
+      - url: "https://fortune.com/2026/01/23/deepmind-demis-hassabis-anthropic-dario-amodei-yann-lecun-ai-davos/"
+        date: 2026-01-23
+        note: "Davos coverage contrasting Amodei's short timeline with LeCun's longer one."
+    notes: "'Two or three years' from Jan 2026 normalized to end of 2029. Snippet-sourced; medium confidence."
+
+  - id: dwarkesh_2026_country_of_geniuses_hunch
+    theme: agi_timeline
+    quote: "We'll get that 2026, maybe 2027. That is my hunch, wouldn't be surprised if I'm off by a year or two, but that is my hunch."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: ""
+    predicted_horizon_verbatim: "2026, maybe 2027"
+    predicted_date: 2027-12-31
+    status: in_window
+    confidence: medium
+    tags: [powerful_ai_arrival]
+    evidence:
+      - url: "https://open.spotify.com/episode/2ZNrpVSrgZMlDwQinl20Ay"
+        date: 2026-02-13
+        note: "Episode listing confirming the 2026-02-13 date."
+    notes: "'Country of geniuses' hunch. Range normalized to end of 2027. Snippet-sourced."
+
+  - id: policy_exponential_year_or_two
+    theme: agi_timeline
+    quote: "If these scaling laws continue for only a year or two longer, we are likely to get what I've called Powerful AI, or 'a country of geniuses in a datacenter.'"
+    speaker: Dario Amodei
+    date_said: 2026-06-10
+    venue: "Policy on the AI Exponential (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/post/policy-on-the-ai-exponential"
+    archive_url: "https://www.semafor.com/article/06/11/2026/anthropics-amodei-calls-for-workers-rights-over-ai"
+    predicted_horizon_verbatim: "a year or two longer"
+    predicted_date: 2028-06-10
+    status: in_window
+    confidence: high
+    tags: [powerful_ai_arrival]
+    evidence:
+      - url: "https://www.semafor.com/article/06/11/2026/anthropics-amodei-calls-for-workers-rights-over-ai"
+        date: 2026-06-11
+        note: "Coverage of his most recent essay (June 10 2026)."
+    notes: >-
+      Most recent essay as of 2026-06-16. Conditional on scaling laws continuing.
+      'A year or two' from June 2026 normalized to mid-2028.
+
+  # ----------------------------------------------------------------------
+  # AI writing code / software automation
+  # ----------------------------------------------------------------------
+  - id: ai_90pct_code_3to6_months
+    theme: coding
+    quote: "I think we will be there in three to six months, where AI is writing 90 percent of the code. And then, in 12 months, we may be in a world where AI is writing essentially all of the code."
+    speaker: Dario Amodei
+    date_said: 2025-03-10
+    venue: "CEO Speaker Series, Council on Foreign Relations (moderated by Michael Froman)"
+    primary_url: "https://www.cfr.org/event/ceo-speaker-series-dario-amodei-anthropic"
+    archive_url: ""
+    predicted_horizon_verbatim: "3 to 6 months (90%); 12 months (essentially all)"
+    predicted_date: 2026-03-10
+    status: partially
+    resolved_date: 2025-10-15
+    confidence: high
+    tags: [recursive_self_improvement]
+    evidence:
+      - url: "https://www.anthropic.com/institute/recursive-self-improvement"
+        date: 2026-06-04
+        note: "Anthropic 'When AI Builds Itself' report: >80% of code merged into production in May 2026 authored by Claude."
+      - url: "https://devops.com/google-ceo-says-75-of-new-code-is-ai-generated/"
+        date: 2026-04-22
+        note: "Google: 75% of new code AI-generated (engineer-approved) — high but short of 'essentially all' industry-wide."
+    notes: >-
+      Date confirmed (CFR, Mon 2025-03-10). PARTIALLY: the 90% figure holds
+      inside Anthropic and some partners (Amodei reaffirmed at Dreamforce
+      2025-10-15; Anthropic's June 2026 report shows >80% of merged production
+      code is Claude-authored), but the stronger 'essentially all code' /
+      industry-wide claim (12-month window ending 2026-03-10) did not hold —
+      major firms were at ~30-75%. resolved_date = the 2025-10-15 reaffirmation.
+
+  - id: ai_replace_engineers_6to12_months
+    theme: coding
+    quote: "We might be 6 to 12 months away from when the model is doing most, maybe all of what software engineers do end-to-end."
+    speaker: Dario Amodei
+    date_said: 2026-01-20
+    venue: "Interview at the World Economic Forum, Davos (The Economist)"
+    primary_url: "https://www.economist.com/business/2026/01/20/dario-amodei-on-ai-and-software-engineers"
+    archive_url: "https://www.entrepreneur.com/business-news/ai-ceo-says-software-engineers-could-be-replaced-in-months/502087"
+    predicted_horizon_verbatim: "6 to 12 months"
+    predicted_date: 2027-01-20
+    status: in_window
+    confidence: medium
+    tags: [recursive_self_improvement]
+    evidence:
+      - url: "https://www.anthropic.com/institute/recursive-self-improvement"
+        date: 2026-06-04
+        note: "Engineers reported merging ~8x more code/day vs 2024 — large productivity gain, not full replacement."
+    notes: >-
+      Quote from Davos coverage; canonical Economist URL reconstructed from
+      metadata and should be verified directly. '6 to 12 months' from Jan 2026
+      normalized to ~Jan 2027. In window as of 2026-06-16.
+
+  # ----------------------------------------------------------------------
+  # Science / biology / health (Machines of Loving Grace; horizons start when
+  # 'powerful AI' arrives, which he places as early as 2026)
+  # ----------------------------------------------------------------------
+  - id: compressed_21st_century_biology
+    theme: science_bio_health
+    quote: "My basic prediction is that AI-enabled biology and medicine will allow us to compress the progress that human biologists would have achieved over the next 50-100 years into 5-10 years."
+    speaker: Dario Amodei
+    date_said: 2024-10-11
+    venue: "Machines of Loving Grace (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/essay/machines-of-loving-grace"
+    archive_url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+    predicted_horizon_verbatim: "5-10 years after powerful AI"
+    predicted_date: 2036-10-11
+    status: in_window
+    confidence: high
+    tags: [compressed_21st_century]
+    evidence:
+      - url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+        date: 2024-10-11
+        note: "Verbatim quote confirmed against full-text mirror of the essay."
+    notes: >-
+      Conditional horizon: 5-10 years AFTER powerful AI (earliest ~2026), so the
+      window's optimistic end is ~2036. Normalized to 2036-10-11. No verifiable
+      'compressed century' biology breakthrough attributable to AI yet.
+
+  - id: cancer_elimination_post_powerful_ai
+    theme: science_bio_health
+    quote: "Death rates from cancer have been dropping ~2% per year... we are on track to eliminate most cancer... Reductions of 95% or more in both mortality and incidence seem possible."
+    speaker: Dario Amodei
+    date_said: 2024-10-11
+    venue: "Machines of Loving Grace (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/essay/machines-of-loving-grace"
+    archive_url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+    predicted_horizon_verbatim: "5-10 years after powerful AI"
+    predicted_date: 2036-10-11
+    status: in_window
+    confidence: high
+    tags: [compressed_21st_century]
+    evidence:
+      - url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+        date: 2024-10-11
+        note: "Quote assembled from adjacent sentences in the cancer passage; see notes."
+    notes: >-
+      Amodei himself calls this the 'hardest and least certain' biology claim.
+      Conditional 5-10y post powerful-AI horizon -> ~2036. Quote condenses
+      adjacent sentences; consult primary for full context.
+
+  - id: infectious_disease_near_elimination
+    theme: science_bio_health
+    quote: "Reliable prevention and treatment of nearly all natural infectious disease. mRNA vaccines and similar technology already point the way towards 'vaccines for anything'."
+    speaker: Dario Amodei
+    date_said: 2024-10-11
+    venue: "Machines of Loving Grace (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/essay/machines-of-loving-grace"
+    archive_url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+    predicted_horizon_verbatim: "5-10 years after powerful AI"
+    predicted_date: 2036-10-11
+    status: in_window
+    confidence: high
+    tags: [compressed_21st_century]
+    evidence:
+      - url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+        date: 2024-10-11
+        note: "Verbatim from essay mirror; framed as one of the more tractable wins."
+    notes: "Conditional 5-10y post powerful-AI horizon, normalized to ~2036."
+
+  - id: doubling_human_lifespan
+    theme: science_bio_health
+    quote: "Doubling of the human lifespan... life expectancy increased ~2x in the 20th century, so it's 'on trend' that the compressed 21st would double it again to 150."
+    speaker: Dario Amodei
+    date_said: 2024-10-11
+    venue: "Machines of Loving Grace (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/essay/machines-of-loving-grace"
+    archive_url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+    predicted_horizon_verbatim: "5-10 years after powerful AI"
+    predicted_date: 2036-10-11
+    status: pending
+    confidence: medium
+    tags: [compressed_21st_century]
+    evidence:
+      - url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+        date: 2024-10-11
+        note: "Essay frames lifespan doubling as the outer bound of the compressed century."
+    notes: >-
+      Most ambitious health claim; heavily hedged in the essay. Marked pending:
+      the dependent condition (powerful AI) is not yet realized and no
+      late-stage interventions approach this scale.
+
+  - id: mental_illness_largely_curable
+    theme: science_bio_health
+    quote: "Most mental illness can probably be cured... diseases like PTSD, depression, schizophrenia, addiction, etc. can be figured out and very effectively treated."
+    speaker: Dario Amodei
+    date_said: 2024-10-11
+    venue: "Machines of Loving Grace (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/essay/machines-of-loving-grace"
+    archive_url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+    predicted_horizon_verbatim: "5-10 years after powerful AI"
+    predicted_date: 2036-10-11
+    status: in_window
+    confidence: medium
+    tags: [compressed_21st_century]
+    evidence:
+      - url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+        date: 2024-10-11
+        note: "Essay; Amodei flags he is 'not an expert in psychiatric disease' and calls it a guess."
+    notes: "Self-described guess; quote condenses adjacent sentences. Conditional horizon -> ~2036."
+
+  # ----------------------------------------------------------------------
+  # Economy / jobs
+  # ----------------------------------------------------------------------
+  - id: entry_level_white_collar_jobs
+    theme: economy_jobs
+    quote: "Cancer is cured, the economy grows at 10% a year, the budget is balanced - and 20% of people don't have jobs."
+    speaker: Dario Amodei
+    date_said: 2025-05-28
+    venue: "Axios 'Behind the Curtain' (VandeHei & Allen)"
+    primary_url: "https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic"
+    archive_url: ""
+    predicted_horizon_verbatim: "next one to five years"
+    predicted_date: 2030-05-28
+    status: in_window
+    confidence: high
+    tags: [labor_market]
+    evidence:
+      - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
+        date: 2025-05-29
+        note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+    notes: >-
+      Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
+      push unemployment to 10-20% within 1-5 years. Normalized to end of the
+      5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
+      evidence. Note: by May 2026 Amodei had begun partly walking this back
+      (Jevons-paradox framing) — to be tracked.
+
+  - id: gdp_growth_developed_world_10_15
+    theme: economy_jobs
+    quote: "I can see a world where AI brings the developed world GDP growth to something like 10 or 15%... outside the distribution of what we saw before."
+    speaker: Dario Amodei
+    date_said: 2026-01-20
+    venue: "WSJ interview at the World Economic Forum, Davos"
+    primary_url: "https://www.youtube.com/watch?v=K7F6ohcBJus"
+    archive_url: "https://officechai.com/ai/ai-could-lead-to-10-15-gdp-growth-in-developed-nations-anthropic-ceo-dario-amodei/"
+    predicted_horizon_verbatim: "no precise date (near-term AI era)"
+    predicted_date: 2031-01-20
+    status: in_window
+    confidence: medium
+    tags: [macroeconomics]
+    evidence:
+      - url: "https://officechai.com/ai/ai-could-lead-to-10-15-gdp-growth-in-developed-nations-anthropic-ceo-dario-amodei/"
+        date: 2026-01-20
+        note: "Coverage of the WSJ/Davos interview with the GDP-growth scenario."
+    notes: >-
+      Explicitly a scenario ('there's no science of calculating these numbers').
+      No precise horizon given; normalized to a 5-year scenario window
+      (2031-01-20). Confidence medium; hard to score objectively.
+
+  - id: developing_world_gdp_20pct_dream
+    theme: economy_jobs
+    quote: "A dream scenario... would be 20% annual GDP growth rate in the developing world, with 10% each coming from AI-enabled economic decisions and the natural spread of AI-accelerated technologies."
+    speaker: Dario Amodei
+    date_said: 2024-10-11
+    venue: "Machines of Loving Grace (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/essay/machines-of-loving-grace"
+    archive_url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+    predicted_horizon_verbatim: "5-10 years (post powerful AI)"
+    predicted_date: 2036-10-11
+    status: pending
+    confidence: medium
+    tags: [macroeconomics]
+    evidence:
+      - url: "https://github.com/domijin/Living-Essay-Machines-of-Loving-Grace-by-Dario-Amodei/blob/main/MachinesOfLovingGrace.md"
+        date: 2024-10-11
+        note: "Verbatim from essay mirror; explicitly labeled 'a dream scenario, not what happens by default'."
+    notes: >-
+      Amodei explicitly frames this as aspirational, not a default forecast.
+      Conditional 5-10y horizon -> ~2036. Pending.
+
+  # ----------------------------------------------------------------------
+  # Safety / scaling (ASL / interpretability)
+  # ----------------------------------------------------------------------
+  - id: asl3_by_2025
+    theme: safety_scaling
+    quote: "I would not be surprised at all if we hit ASL-3 next year. There was some concern that we might even hit it this year. That's still possible."
+    speaker: Dario Amodei
+    date_said: 2024-11-11
+    venue: "Lex Fridman Podcast #452"
+    primary_url: "https://lexfridman.com/dario-amodei/"
+    archive_url: ""
+    predicted_horizon_verbatim: "next year (2025)"
+    predicted_date: 2025-12-31
+    status: achieved
+    resolved_date: 2025-05-22
+    confidence: high
+    tags: [responsible_scaling]
+    evidence:
+      - url: "https://www.anthropic.com/news/activating-asl3-protections"
+        date: 2025-05-22
+        note: "Anthropic activated ASL-3 Deployment and Security Standards for Claude Opus 4."
+    notes: >-
+      Clean resolved case. Predicted 'next year' (2025) in Nov 2024; ASL-3 was
+      activated 2025-05-22, ~7 months ahead of the year-end deadline (lead ~+223
+      days).
+
+  - id: interpretability_detect_problems_2027
+    theme: safety_scaling
+    quote: "We are thus in a race between interpretability and model intelligence."
+    speaker: Dario Amodei
+    date_said: 2025-04-24
+    venue: "The Urgency of Interpretability (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/post/the-urgency-of-interpretability"
+    archive_url: "https://www.lesswrong.com/posts/SebmGh9HYdd8GZtHA/the-urgency-of-interpretability-dario-amodei"
+    predicted_horizon_verbatim: "by 2027 (interpretability reliably detects most model problems)"
+    predicted_date: 2027-12-31
+    status: in_window
+    confidence: high
+    tags: [interpretability]
+    evidence:
+      - url: "https://techcrunch.com/2025/04/24/anthropic-ceo-wants-to-open-the-black-box-of-ai-models-by-2027"
+        date: 2025-04-24
+        note: "Amodei's stated goal: interpretability can 'reliably detect most model problems' by 2027."
+    notes: >-
+      The scored claim is the stated 2027 goal that interpretability can reliably
+      detect most model problems. Quote shown is the essay's framing line; the
+      dated target is captured in the evidence note. In window.
+
+  # ----------------------------------------------------------------------
+  # Anthropic milestones
+  # ----------------------------------------------------------------------
+  - id: one_person_billion_dollar_company_2026
+    theme: anthropic_milestone
+    quote: "[The first one-person billion-dollar company will arrive in] 2026."
+    speaker: Dario Amodei
+    date_said: 2026-05-06
+    venue: "Code with Claude developer conference, San Francisco"
+    primary_url: "https://www.inc.com/ben-sherry/anthropic-ceo-dario-amodei-predicts-the-first-billion-dollar-solopreneur-by-2026/91193609"
+    archive_url: ""
+    predicted_horizon_verbatim: "2026 (~70-80% chance, per his same-day caveat)"
+    predicted_date: 2026-12-31
+    status: in_window
+    confidence: medium
+    tags: [solopreneur]
+    evidence:
+      - url: "https://www.inc.com/ben-sherry/anthropic-ceo-dario-amodei-predicts-the-first-billion-dollar-solopreneur-by-2026/91193609"
+        date: 2026-05-06
+        note: "Asked when the first 1-person $1B company would exist, he answered '2026'; later put it at ~70-80% likely."
+    notes: >-
+      Near-term, concrete, and scoreable by end of 2026. Snippet-sourced quote;
+      confidence medium pending primary verification.
+
+  - id: asl4_threshold_within_2_years
+    theme: safety_scaling
+    quote: "[A] reasonable probability of capabilities that would likely cross the ASL-4 threshold (CBRN-4) within the next 2 years."
+    speaker: "Anthropic (Responsible Scaling Policy v3.0; Dario Amodei, CEO)"
+    date_said: 2026-02-24
+    venue: "Anthropic Responsible Scaling Policy v3.0"
+    primary_url: "https://www.anthropic.com/responsible-scaling-policy"
+    archive_url: "https://www.governance.ai/analysis/anthropics-rsp-v3-0-how-it-works-whats-changed-and-some-reflections"
+    predicted_horizon_verbatim: "within the next 2 years"
+    predicted_date: 2028-02-24
+    status: pending
+    confidence: medium
+    tags: [responsible_scaling]
+    evidence:
+      - url: "https://www.metaculus.com/c/risk/38590/date-anthropic-reaches-asl-4/"
+        date: 2026-06-16
+        note: "Metaculus community median for Anthropic reaching ASL-4 is ~2027-07."
+    notes: >-
+      Organizational (RSP) statement under Amodei's leadership. '~2 years' from
+      Feb 2026 -> ~2028. Pending. Paraphrase from RSP v3.0 analysis; verify exact
+      wording against the primary RSP document.
