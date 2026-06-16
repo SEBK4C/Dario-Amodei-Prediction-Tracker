@@ -509,6 +509,35 @@ predictions:
       Feb 2026 -> ~2028. Pending. Paraphrase from RSP v3.0 analysis; verify exact
       wording against the primary RSP document.
 
+  - id: claude_constitution_adherence_2026
+    theme: safety_scaling
+    quote: "A feasible goal for 2026 is to train Claude in such a way that it almost never goes against the spirit of its constitution."
+    speaker: "Anthropic (Dario Amodei, CEO)"
+    date_said: 2026-01-21
+    venue: "Claude's Constitution (official Anthropic post)"
+    primary_url: "https://www.anthropic.com/news/claudes-constitution"
+    archive_url: "https://www-cdn.anthropic.com/d0636f72a9493d279ed36b33987da3430bcb5911/claudes-constitution_webPDF_26-02.02a.pdf"
+    predicted_horizon_verbatim: "a feasible goal for 2026"
+    predicted_date: 2026-12-31
+    status: in_window
+    confidence: medium
+    tags: [alignment, constitutional_ai]
+    evidence:
+      - url: "https://time.com/7354738/claude-constitution-ai-alignment/"
+        date: 2026-01-21
+        note: "TIME coverage of Anthropic publishing Claude's new constitution (Jan 2026)."
+    notes: >-
+      Organizational alignment target stated with Anthropic's Jan-2026 Claude
+      constitution release (under Amodei's leadership). Concrete and scoreable by
+      end of 2026, which is why it is logged separately from the open-ended
+      interpretability/ASL goals. Quote triangulated across multiple independent
+      web-search summaries; the primary wording was NOT fetch-verified this run
+      because the environment's network policy blocked all outbound page fetches
+      (only web search was available). Confidence held at medium pending verbatim
+      confirmation against the primary post / constitution PDF, and source
+      attribution (the constitution announcement vs. the same-week 'Adolescence of
+      Technology' essay) should be reconfirmed when fetch access is restored.
+
   - id: sixty_minutes_change_world_two_years
     theme: agi_timeline
     quote: "These systems could change the world, fundamentally, within two years; in 10 years, all bets are off."
