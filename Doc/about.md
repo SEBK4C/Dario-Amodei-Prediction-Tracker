@@ -34,7 +34,7 @@ Quotes are recorded verbatim with a primary-source link; normalization of vague
 horizons into dates is documented per record. If you find an error — a
 misattributed quote, a wrong date, a better primary source, or a status that
 should change — please open an issue or pull request against
-[`Mem/predictions.yaml`](https://github.com/sebk4c/dario-amodei-prediction-tracker/blob/main/Mem/predictions.yaml).
+[`Mem/predictions.yaml`](https://github.com/SEBK4C/Dario-Amodei-Prediction-Tracker/blob/main/Mem/predictions.yaml).
 
 ## Disclaimer
 

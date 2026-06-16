@@ -2,9 +2,9 @@ site_name: Dario Amodei Prediction Tracker
 site_description: >-
   A citation-grounded, continuously-updated timeline of Dario Amodei's public
   predictions about AI and Anthropic, scored against observed outcomes.
-site_url: https://sebk4c.github.io/dario-amodei-prediction-tracker/
-repo_url: https://github.com/sebk4c/dario-amodei-prediction-tracker
-repo_name: dario-amodei-prediction-tracker
+site_url: https://sebk4c.github.io/Dario-Amodei-Prediction-Tracker/
+repo_url: https://github.com/SEBK4C/Dario-Amodei-Prediction-Tracker
+repo_name: SEBK4C/Dario-Amodei-Prediction-Tracker
 docs_dir: Doc
 site_dir: site
 copyright: >-
@@ -62,4 +62,4 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/sebk4c/dario-amodei-prediction-tracker
+      link: https://github.com/SEBK4C/Dario-Amodei-Prediction-Tracker

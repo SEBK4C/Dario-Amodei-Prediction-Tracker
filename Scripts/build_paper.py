@@ -146,13 +146,13 @@ This project treats those forecasts as a falsifiable dataset. Our goals are:
 
 ## 2. Data and Methods
 
-**Dataset.** The source of truth is [`Mem/predictions.yaml`](https://github.com/sebk4c/dario-amodei-prediction-tracker/blob/main/Mem/predictions.yaml).
+**Dataset.** The source of truth is [`Mem/predictions.yaml`](https://github.com/SEBK4C/Dario-Amodei-Prediction-Tracker/blob/main/Mem/predictions.yaml).
 Each record carries the verbatim quote, speaker, the date it was said, the
 venue, a primary-source URL (plus an archive link where available), the
 verbatim predicted horizon, a normalized `predicted_date` (range ends are
 normalized to the end of the range), a `status`, optional `resolved_date`, and
 the evidence used to score it. Records are schema-validated on every build by
-[`Scripts/validate.py`](https://github.com/sebk4c/dario-amodei-prediction-tracker/blob/main/Scripts/validate.py).
+[`Scripts/validate.py`](https://github.com/SEBK4C/Dario-Amodei-Prediction-Tracker/blob/main/Scripts/validate.py).
 
 **Status vocabulary.** `pending` (window not yet open), `in_window` (inside the
 predicted window, unresolved), `achieved`, `partially`, `missed`, and
@@ -160,7 +160,7 @@ predicted window, unresolved), `achieved`, `partially`, `missed`, and
 `achieved = 1.0`, `partially = 0.5`, `missed = 0.0`.
 
 **Statistics.** All metrics are computed by
-[`Scripts/mathematics.py`](https://github.com/sebk4c/dario-amodei-prediction-tracker/blob/main/Scripts/mathematics.py)
+[`Scripts/mathematics.py`](https://github.com/SEBK4C/Dario-Amodei-Prediction-Tracker/blob/main/Scripts/mathematics.py)
 using ordinary least squares (numpy). For each resolved-true prediction we
 compute *lead days* = `predicted_date − resolved_date` (positive = ahead of
 schedule). H2 regresses stated horizon (years) on the year the statement was
@@ -311,7 +311,7 @@ def build_catalogue(preds) -> str:
            "Every tracked prediction with its verbatim quote, primary source, "
            "normalization notes, and the evidence used to score its status. "
            "This is the human-readable view of "
-           "[`Mem/predictions.yaml`](https://github.com/sebk4c/dario-amodei-prediction-tracker/blob/main/Mem/predictions.yaml).",
+           "[`Mem/predictions.yaml`](https://github.com/SEBK4C/Dario-Amodei-Prediction-Tracker/blob/main/Mem/predictions.yaml).",
            ""]
     for p in sorted(preds, key=lambda p: p.date_said):
         out.append(f"## {p.id.replace('_', ' ').title()}  ·  {STATUS_BADGE.get(p.status, p.status)}")

@@ -8,9 +8,9 @@ number and figure from the dataset.
 ## 1. The dataset
 
 The single source of truth is
-[`Mem/predictions.yaml`](https://github.com/sebk4c/dario-amodei-prediction-tracker/blob/main/Mem/predictions.yaml).
+[`Mem/predictions.yaml`](https://github.com/SEBK4C/Dario-Amodei-Prediction-Tracker/blob/main/Mem/predictions.yaml).
 The schema is specified in
-[`Mem/SCHEMA.md`](https://github.com/sebk4c/dario-amodei-prediction-tracker/blob/main/Mem/SCHEMA.md)
+[`Mem/SCHEMA.md`](https://github.com/SEBK4C/Dario-Amodei-Prediction-Tracker/blob/main/Mem/SCHEMA.md)
 and enforced on every build by `Scripts/validate.py`. Each record stores the
 verbatim quote, speaker, the date it was said, the venue, a primary-source URL
 (plus an archive link where available), the verbatim predicted horizon, a
