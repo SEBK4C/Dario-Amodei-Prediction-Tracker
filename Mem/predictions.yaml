@@ -508,3 +508,27 @@ predictions:
       Organizational (RSP) statement under Amodei's leadership. '~2 years' from
       Feb 2026 -> ~2028. Pending. Paraphrase from RSP v3.0 analysis; verify exact
       wording against the primary RSP document.
+
+  - id: sixty_minutes_change_world_two_years
+    theme: agi_timeline
+    quote: "These systems could change the world, fundamentally, within two years; in 10 years, all bets are off."
+    speaker: Dario Amodei
+    date_said: 2025-11-16
+    venue: "60 Minutes, CBS News (interview with Anderson Cooper)"
+    primary_url: "https://www.cbsnews.com/news/anthropic-ceo-dario-amodei-full-transcript/"
+    archive_url: ""
+    predicted_horizon_verbatim: "within two years"
+    predicted_date: 2027-11-16
+    status: in_window
+    confidence: medium
+    tags: []
+    evidence:
+      - url: "https://www.cbsnews.com/news/anthropic-ceo-dario-amodei-full-transcript/"
+        date: 2025-11-16
+        note: "60 Minutes interview; quote from CBS coverage (transcript page CDN-blocked at fetch time)."
+    notes: >-
+      Broad 'change the world fundamentally' impact claim, not his precise
+      'powerful AI' definition, so it is NOT tagged powerful_ai_arrival (kept out
+      of the H2 subset). Air date approximate (Nov 2025); 'within two years'
+      normalized to 2027-11-16. Confidence medium pending verbatim verification
+      against the primary transcript.
