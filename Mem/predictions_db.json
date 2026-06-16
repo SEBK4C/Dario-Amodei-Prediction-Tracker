@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "Dario Amodei Prediction Tracker",
+    "description": "A single source of truth tracking Dario Amodei's (Anthropic CEO) public AI predictions, validated against primary sources and current events.",
+    "schema_version": "1.0",
+    "last_updated": "2026-06-16",
+    "status_legend": {
+      "Pending": "Target date in the future; not yet verifiable.",
+      "Achieved": "Prediction verifiably came true on or before target date.",
+      "Partial": "Partially realized; some but not all conditions met.",
+      "Failed": "Target window passed without realization.",
+      "Walked Back": "Predictor publicly retracted, softened, or revised the claim."
+    },
+    "categories": [
+      "Powerful AI / AGI Timeline",
+      "Software & Code Automation",
+      "Biology & Health",
+      "Labor & Economy",
+      "Compute & Scaling"
+    ]
+  },
+  "predictions": [
+    {
+      "id": "P001",
+      "category": "Powerful AI / AGI Timeline",
+      "prediction": "\"Powerful AI\" (a 'country of geniuses in a datacenter') could arrive as early as 2026 in the optimistic scenario.",
+      "quote": "I think it could come as early as 2026... a country of geniuses in a datacenter.",
+      "date_made": "2024-10-24",
+      "target_date": "2026-12-31",
+      "status": "Pending",
+      "source": {
+        "title": "Machines of Loving Grace",
+        "url": "https://darioamodei.com/essay/machines-of-loving-grace",
+        "type": "essay",
+        "publisher": "darioamodei.com"
+      },
+      "notes": "Defines 'powerful AI' as smarter than a Nobel laureate across most fields, with the agency, tools, and speed of millions of copies. Seed entry."
+    },
+    {
+      "id": "P002",
+      "category": "Powerful AI / AGI Timeline",
+      "prediction": "Powerful AI systems will emerge in late 2026 or early 2027, with intellectual capabilities matching or exceeding Nobel Prize winners across most disciplines.",
+      "quote": "we expect powerful AI systems will emerge in late 2026 or early 2027... matching or exceeding that of Nobel Prize winners across most disciplines.",
+      "date_made": "2025-03-06",
+      "target_date": "2027-03-31",
+      "status": "Pending",
+      "source": {
+        "title": "Anthropic Recommendations to OSTP for the U.S. AI Action Plan",
+        "url": "https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan",
+        "type": "policy submission",
+        "publisher": "Anthropic"
+      },
+      "notes": "Formal written policy submission; the most concrete dated AGI-timeline commitment on record."
+    },
+    {
+      "id": "P003",
+      "category": "Powerful AI / AGI Timeline",
+      "prediction": "A 'country of geniuses in a datacenter' (~50 million AI agents, each smarter than a Nobel laureate, running at 10-100x human speed) could materialize by 2027.",
+      "quote": "a country of geniuses in a datacenter",
+      "date_made": "2026-01-27",
+      "target_date": "2027-12-31",
+      "status": "Pending",
+      "source": {
+        "title": "The Adolescence of Technology",
+        "url": "https://darioamodei.com/essay/the-adolescence-of-technology",
+        "type": "essay",
+        "publisher": "darioamodei.com"
+      },
+      "notes": "Companion essay to Machines of Loving Grace, published Jan 2026; reaffirms the ~2027 powerful-AI window while emphasizing five risk categories."
+    },
+    {
+      "id": "P004",
+      "category": "Software & Code Automation",
+      "prediction": "AI will be writing 90% of all code within 3-6 months, and essentially all code within 12 months.",
+      "quote": "I think we'll be there in three to six months, where AI is writing 90 percent of the code. And then, in 12 months, we may be in a world where AI is writing essentially all of the code.",
+      "date_made": "2025-03-10",
+      "target_date": "2025-09-10",
+      "status": "Failed",
+      "source": {
+        "title": "Council on Foreign Relations event (reported)",
+        "url": "https://finance.yahoo.com/news/anthropic-ceo-says-ai-could-193020957.html",
+        "type": "public remarks",
+        "publisher": "Council on Foreign Relations / Yahoo Finance"
+      },
+      "notes": "The 3-6 month window (Sep 2025) passed without the 90%-of-all-code threshold being met industry-wide. Amodei later softened to 'on many teams.' Independent analyses (Redwood Research) found the claim unverified even within Anthropic."
+    },
+    {
+      "id": "P005",
+      "category": "Biology & Health",
+      "prediction": "AI could compress 50-100 years of biological progress into 5-10 years, potentially doubling the human lifespan.",
+      "quote": "I think AI could help us compress the next 50 to 100 years of biological progress into 5 to 10 years.",
+      "date_made": "2025-01-21",
+      "target_date": "2035-12-31",
+      "status": "Pending",
+      "source": {
+        "title": "World Economic Forum (Davos) 2025 remarks (reported)",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2025/anthropic-ceo-sees-ai-powered-advances-doubling-human-lifespans/",
+        "type": "interview",
+        "publisher": "World Economic Forum / PYMNTS"
+      },
+      "notes": "The 'compressed 21st century' thesis. Reasoning: 20th-century life expectancy roughly doubled (~40 to ~75); a compressed 21st could double it again toward ~150. Long-horizon; remains Pending."
+    },
+    {
+      "id": "P006",
+      "category": "Labor & Economy",
+      "prediction": "AI could eliminate up to 50% of entry-level white-collar jobs within five years and push unemployment to 10-20%.",
+      "quote": "AI could wipe out half of all entry-level white-collar jobs and spike unemployment to 10-20% in the next one to five years.",
+      "date_made": "2025-05-28",
+      "target_date": "2030-05-28",
+      "status": "Walked Back",
+      "source": {
+        "title": "Axios interview: 'Behind the Curtain: A white-collar bloodbath'",
+        "url": "https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic",
+        "type": "interview",
+        "publisher": "Axios"
+      },
+      "notes": "By May 2026, Amodei publicly tempered this forecast (Fortune), suggesting automation may expand work rather than purely destroy it. Yale Budget Lab found no meaningful unemployment shift for AI-exposed workers through early 2026, though entry-level tech hiring did fall sharply."
+    }
+  ]
+}

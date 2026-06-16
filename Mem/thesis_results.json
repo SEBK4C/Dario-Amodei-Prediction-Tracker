@@ -1,0 +1,73 @@
+{
+  "generated": "2026-06-16",
+  "n_predictions": 6,
+  "status_tally": {
+    "Pending": 4,
+    "Failed": 1,
+    "Walked Back": 1
+  },
+  "hypothesis_H1": {
+    "statement": "Successive 'powerful AI' timelines imply a shrinking prediction horizon (accelerating expectation).",
+    "rows": [
+      {
+        "id": "P001",
+        "date_made": "2024-10-24",
+        "target_date": "2026-12-31",
+        "made_ordinal": 739183,
+        "horizon_years": 2.185
+      },
+      {
+        "id": "P002",
+        "date_made": "2025-03-06",
+        "target_date": "2027-03-31",
+        "made_ordinal": 739316,
+        "horizon_years": 2.067
+      },
+      {
+        "id": "P003",
+        "date_made": "2026-01-27",
+        "target_date": "2027-12-31",
+        "made_ordinal": 739643,
+        "horizon_years": 1.925
+      }
+    ],
+    "slope_years_per_year": -0.1974,
+    "intercept_years": 2.1658,
+    "r_squared": 0.9659,
+    "verdict": "SUPPORTED: prediction horizon is contracting over time (-0.20 yr of horizon per calendar yr), the signature of an accelerating (super-exponential) capability expectation."
+  },
+  "supporting_model_effective_compute": {
+    "assumption_doublings_per_year": 2.5,
+    "implied_annual_multiplier": 5.66,
+    "curve": [
+      {
+        "year": 2024,
+        "relative_effective_compute": 1.0
+      },
+      {
+        "year": 2025,
+        "relative_effective_compute": 5.7
+      },
+      {
+        "year": 2026,
+        "relative_effective_compute": 32.0
+      },
+      {
+        "year": 2027,
+        "relative_effective_compute": 181.0
+      },
+      {
+        "year": 2028,
+        "relative_effective_compute": 1024.0
+      },
+      {
+        "year": 2029,
+        "relative_effective_compute": 5792.6
+      },
+      {
+        "year": 2030,
+        "relative_effective_compute": 32768.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+name: Build & Deploy Tracker Site
+
+# Rebuilds the data pipeline and publishes ./docs to GitHub Pages.
+# Runs on push to the working branch and on a daily schedule (the Cron export
+# criterion for the autonomous research loop).
+on:
+  push:
+    branches:
+      - claude/zen-lamport-70yff6
+      - main
+    paths:
+      - "Mem/**"
+      - "Scripts/**"
+      - "docs/**"
+      - ".github/workflows/deploy.yml"
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run pipeline (thesis -> paper -> site)
+        run: bash Scripts/run_pipeline.sh
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

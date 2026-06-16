@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dario Amodei Prediction Tracker</title>
+<meta name="description" content="A single source of truth tracking Dario Amodei&#x27;s (Anthropic CEO) public AI predictions, validated against primary sources and current events.">
+<style>
+  :root{color-scheme:dark}
+  body{margin:0;background:#010409;color:#e6edf3;font-family:system-ui,Segoe UI,Arial,sans-serif;line-height:1.55}
+  .wrap{max-width:1000px;margin:0 auto;padding:24px}
+  header h1{margin:0 0 6px;font-size:28px}
+  header p.sub{color:#8b949e;margin:0 0 16px}
+  .pills{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+  .pill{font-size:12px;padding:3px 10px;border:1px solid #30363d;border-radius:999px;color:#e6edf3;background:#0d1117}
+  section{background:#0d1117;border:1px solid #21262d;border-radius:12px;padding:18px;margin:18px 0}
+  section h2{margin-top:0;font-size:20px}
+  svg{max-width:100%;height:auto;display:block}
+  .verdict{background:#161b22;border-left:3px solid #f78166;padding:10px 14px;border-radius:6px;color:#e6edf3}
+  .grid{display:grid;gap:14px}
+  .card{background:#0d1117;border:1px solid #21262d;border-radius:10px;padding:16px}
+  .card-head{display:flex;justify-content:space-between;align-items:center}
+  .id{font-weight:700;color:#58a6ff}
+  .badge{font-size:12px;padding:2px 10px;border-radius:999px;font-weight:600}
+  .cat{color:#8b949e;font-size:12px;text-transform:uppercase;letter-spacing:.04em;margin:8px 0 4px}
+  .pred{font-weight:600;margin:4px 0}
+  blockquote{margin:8px 0;padding:8px 12px;border-left:3px solid #30363d;color:#c9d1d9;font-style:italic}
+  .meta,.src,.notes{font-size:13px;color:#8b949e;margin:6px 0}
+  a{color:#58a6ff}
+  footer{color:#6e7681;font-size:12px;text-align:center;padding:24px}
+</style></head>
+<body><div class="wrap">
+<header>
+  <h1>Dario Amodei Prediction Tracker</h1>
+  <p class="sub">A single source of truth tracking Dario Amodei&#x27;s (Anthropic CEO) public AI predictions, validated against primary sources and current events.</p>
+  <div class="pills"><span class="pill" style="border-color:#d29922">Pending: 4</span> <span class="pill" style="border-color:#f85149">Failed: 1</span> <span class="pill" style="border-color:#a371f7">Walked Back: 1</span></div>
+  <p class="sub">Last updated 2026-06-16 &middot; 6 tracked predictions &middot; every entry carries a hyperlinked primary source.</p>
+</header>
+
+<section>
+  <h2>&#128336; Prediction Timeline <span style="font-size:13px;color:#8b949e">(the core view)</span></h2>
+  <p class="sub">Circle = date the prediction was made; diamond = target date. Bar colour encodes status.</p>
+  <div class="pills"><span class="pill" style="border-color:#d29922">Pending</span> <span class="pill" style="border-color:#2ea043">Achieved</span> <span class="pill" style="border-color:#58a6ff">Partial</span> <span class="pill" style="border-color:#f85149">Failed</span> <span class="pill" style="border-color:#a371f7">Walked Back</span></div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="960" height="406" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="13">
+<rect width="960" height="406" fill="#0d1117"/>
+<line x1="179.8" y1="52" x2="179.8" y2="376" stroke="#21262d"/>
+<text x="179.8" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2024</text>
+<line x1="241.7" y1="52" x2="241.7" y2="376" stroke="#21262d"/>
+<text x="241.7" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2025</text>
+<line x1="303.3" y1="52" x2="303.3" y2="376" stroke="#21262d"/>
+<text x="303.3" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2026</text>
+<line x1="365.0" y1="52" x2="365.0" y2="376" stroke="#21262d"/>
+<text x="365.0" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2027</text>
+<line x1="426.6" y1="52" x2="426.6" y2="376" stroke="#21262d"/>
+<text x="426.6" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2028</text>
+<line x1="488.4" y1="52" x2="488.4" y2="376" stroke="#21262d"/>
+<text x="488.4" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2029</text>
+<line x1="550.1" y1="52" x2="550.1" y2="376" stroke="#21262d"/>
+<text x="550.1" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2030</text>
+<line x1="611.7" y1="52" x2="611.7" y2="376" stroke="#21262d"/>
+<text x="611.7" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2031</text>
+<line x1="673.4" y1="52" x2="673.4" y2="376" stroke="#21262d"/>
+<text x="673.4" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2032</text>
+<line x1="735.2" y1="52" x2="735.2" y2="376" stroke="#21262d"/>
+<text x="735.2" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2033</text>
+<line x1="796.9" y1="52" x2="796.9" y2="376" stroke="#21262d"/>
+<text x="796.9" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2034</text>
+<line x1="858.5" y1="52" x2="858.5" y2="376" stroke="#21262d"/>
+<text x="858.5" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2035</text>
+<line x1="920.2" y1="52" x2="920.2" y2="376" stroke="#21262d"/>
+<text x="920.2" y="46" fill="#8b949e" text-anchor="middle" font-size="12">2036</text>
+<line x1="331.3" y1="52" x2="331.3" y2="376" stroke="#f78166" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="331.3" y="392" fill="#f78166" text-anchor="middle" font-size="11">today</text>
+<text x="218" y="97.0" fill="#e6edf3" text-anchor="end" font-size="12">P001  Powerful AI</text>
+<line x1="230.0" y1="93.0" x2="364.8" y2="93.0" stroke="#d29922" stroke-width="3" opacity="0.55"/>
+<circle cx="230.0" cy="93.0" r="5" fill="#58a6ff"/>
+<rect x="359.8" y="88.0" width="10" height="10" fill="#d29922" transform="rotate(45 364.8 93.0)"/>
+<text x="218" y="143.0" fill="#e6edf3" text-anchor="end" font-size="12">P005  Biology &amp; Health</text>
+<line x1="245.0" y1="139.0" x2="920.0" y2="139.0" stroke="#d29922" stroke-width="3" opacity="0.55"/>
+<circle cx="245.0" cy="139.0" r="5" fill="#58a6ff"/>
+<rect x="915.0" y="134.0" width="10" height="10" fill="#d29922" transform="rotate(45 920.0 139.0)"/>
+<text x="218" y="189.0" fill="#e6edf3" text-anchor="end" font-size="12">P002  Powerful AI</text>
+<line x1="252.5" y1="185.0" x2="380.0" y2="185.0" stroke="#d29922" stroke-width="3" opacity="0.55"/>
+<circle cx="252.5" cy="185.0" r="5" fill="#58a6ff"/>
+<rect x="375.0" y="180.0" width="10" height="10" fill="#d29922" transform="rotate(45 380.0 185.0)"/>
+<text x="218" y="235.0" fill="#e6edf3" text-anchor="end" font-size="12">P004  Software &amp; Code Automation</text>
+<line x1="253.1" y1="231.0" x2="284.2" y2="231.0" stroke="#f85149" stroke-width="3" opacity="0.55"/>
+<circle cx="253.1" cy="231.0" r="5" fill="#58a6ff"/>
+<rect x="279.2" y="226.0" width="10" height="10" fill="#f85149" transform="rotate(45 284.2 231.0)"/>
+<text x="218" y="281.0" fill="#e6edf3" text-anchor="end" font-size="12">P006  Labor &amp; Economy</text>
+<line x1="266.5" y1="277.0" x2="574.9" y2="277.0" stroke="#a371f7" stroke-width="3" opacity="0.55"/>
+<circle cx="266.5" cy="277.0" r="5" fill="#58a6ff"/>
+<rect x="569.9" y="272.0" width="10" height="10" fill="#a371f7" transform="rotate(45 574.9 277.0)"/>
+<text x="218" y="327.0" fill="#e6edf3" text-anchor="end" font-size="12">P003  Powerful AI</text>
+<line x1="307.7" y1="323.0" x2="426.4" y2="323.0" stroke="#d29922" stroke-width="3" opacity="0.55"/>
+<circle cx="307.7" cy="323.0" r="5" fill="#58a6ff"/>
+<rect x="421.4" y="318.0" width="10" height="10" fill="#d29922" transform="rotate(45 426.4 323.0)"/>
+</svg>
+</section>
+
+<section>
+  <h2>&#128202; Acceleration Thesis (H1)</h2>
+  <p>Successive &#x27;powerful AI&#x27; timelines imply a shrinking prediction horizon (accelerating expectation).</p>
+  <p class="verdict">SUPPORTED: prediction horizon is contracting over time (-0.20 yr of horizon per calendar yr), the signature of an accelerating (super-exponential) capability expectation.</p>
+  <p class="sub">Linear fit of prediction horizon on date-made: slope = <b>-0.1974</b> yr/yr, R&sup2; = <b>0.9659</b>.</p>
+  <svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" font-family="system-ui,Arial,sans-serif" font-size="13">
+<rect width="720" height="420" fill="#0d1117"/>
+<text x="360.0" y="22" fill="#e6edf3" font-size="16" font-weight="700" text-anchor="middle">Prediction Horizon vs. Date Made (AGI timeline)</text>
+<line x1="70" y1="40" x2="70" y2="360" stroke="#30363d"/><line x1="70" y1="360" x2="690" y2="360" stroke="#30363d"/>
+<line x1="70" y1="360.0" x2="690" y2="360.0" stroke="#161b22"/>
+<text x="62" y="364.0" fill="#8b949e" text-anchor="end">0</text>
+<line x1="70" y1="237.5" x2="690" y2="237.5" stroke="#161b22"/>
+<text x="62" y="241.5" fill="#8b949e" text-anchor="end">1</text>
+<line x1="70" y1="115.0" x2="690" y2="115.0" stroke="#161b22"/>
+<text x="62" y="119.0" fill="#8b949e" text-anchor="end">2</text>
+<text x="20" y="200.0" fill="#8b949e" text-anchor="middle" transform="rotate(-90 20 200.0)">Horizon (years)</text>
+<line x1="70.0" y1="94.7" x2="690.0" y2="125.2" stroke="#f78166" stroke-width="2" stroke-dasharray="6 4"/>
+<circle cx="70.0" cy="92.4" r="6" fill="#58a6ff"/>
+<text x="70.0" y="80.4" fill="#e6edf3" text-anchor="middle" font-size="11">P001</text>
+<text x="70.0" y="378.0" fill="#8b949e" text-anchor="middle" font-size="10">2024-10-24</text>
+<circle cx="249.3" cy="106.8" r="6" fill="#58a6ff"/>
+<text x="249.3" y="94.8" fill="#e6edf3" text-anchor="middle" font-size="11">P002</text>
+<text x="249.3" y="378.0" fill="#8b949e" text-anchor="middle" font-size="10">2025-03-06</text>
+<circle cx="690.0" cy="124.2" r="6" fill="#58a6ff"/>
+<text x="690.0" y="112.2" fill="#e6edf3" text-anchor="middle" font-size="11">P003</text>
+<text x="690.0" y="378.0" fill="#8b949e" text-anchor="middle" font-size="10">2026-01-27</text>
+<text x="690" y="408" fill="#8b949e" text-anchor="end" font-size="11">slope = -0.1974 yr/yr  (R^2 = 0.9659)</text>
+</svg>
+</section>
+
+<section>
+  <h2>&#128203; Tracked Predictions</h2>
+  <div class="grid">
+    
+    <article class="card" id="P001">
+      <div class="card-head">
+        <span class="id">P001</span>
+        <span class="badge" style="background:#d2992222;color:#d29922;border:1px solid #d29922">Pending</span>
+      </div>
+      <p class="cat">Powerful AI / AGI Timeline</p>
+      <p class="pred">&quot;Powerful AI&quot; (a &#x27;country of geniuses in a datacenter&#x27;) could arrive as early as 2026 in the optimistic scenario.</p>
+      <blockquote>&ldquo;I think it could come as early as 2026... a country of geniuses in a datacenter.&rdquo;</blockquote>
+      <p class="meta">Made <b>2024-10-24</b> &middot; target <b>2026-12-31</b></p>
+      <p class="src">Source: <a href="https://darioamodei.com/essay/machines-of-loving-grace" target="_blank" rel="noopener">Machines of Loving Grace</a> (essay)</p>
+      <p class="notes">Defines &#x27;powerful AI&#x27; as smarter than a Nobel laureate across most fields, with the agency, tools, and speed of millions of copies. Seed entry.</p>
+    </article>
+    <article class="card" id="P005">
+      <div class="card-head">
+        <span class="id">P005</span>
+        <span class="badge" style="background:#d2992222;color:#d29922;border:1px solid #d29922">Pending</span>
+      </div>
+      <p class="cat">Biology &amp; Health</p>
+      <p class="pred">AI could compress 50-100 years of biological progress into 5-10 years, potentially doubling the human lifespan.</p>
+      <blockquote>&ldquo;I think AI could help us compress the next 50 to 100 years of biological progress into 5 to 10 years.&rdquo;</blockquote>
+      <p class="meta">Made <b>2025-01-21</b> &middot; target <b>2035-12-31</b></p>
+      <p class="src">Source: <a href="https://www.pymnts.com/artificial-intelligence-2/2025/anthropic-ceo-sees-ai-powered-advances-doubling-human-lifespans/" target="_blank" rel="noopener">World Economic Forum (Davos) 2025 remarks (reported)</a> (interview)</p>
+      <p class="notes">The &#x27;compressed 21st century&#x27; thesis. Reasoning: 20th-century life expectancy roughly doubled (~40 to ~75); a compressed 21st could double it again toward ~150. Long-horizon; remains Pending.</p>
+    </article>
+    <article class="card" id="P002">
+      <div class="card-head">
+        <span class="id">P002</span>
+        <span class="badge" style="background:#d2992222;color:#d29922;border:1px solid #d29922">Pending</span>
+      </div>
+      <p class="cat">Powerful AI / AGI Timeline</p>
+      <p class="pred">Powerful AI systems will emerge in late 2026 or early 2027, with intellectual capabilities matching or exceeding Nobel Prize winners across most disciplines.</p>
+      <blockquote>&ldquo;we expect powerful AI systems will emerge in late 2026 or early 2027... matching or exceeding that of Nobel Prize winners across most disciplines.&rdquo;</blockquote>
+      <p class="meta">Made <b>2025-03-06</b> &middot; target <b>2027-03-31</b></p>
+      <p class="src">Source: <a href="https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan" target="_blank" rel="noopener">Anthropic Recommendations to OSTP for the U.S. AI Action Plan</a> (policy submission)</p>
+      <p class="notes">Formal written policy submission; the most concrete dated AGI-timeline commitment on record.</p>
+    </article>
+    <article class="card" id="P004">
+      <div class="card-head">
+        <span class="id">P004</span>
+        <span class="badge" style="background:#f8514922;color:#f85149;border:1px solid #f85149">Failed</span>
+      </div>
+      <p class="cat">Software &amp; Code Automation</p>
+      <p class="pred">AI will be writing 90% of all code within 3-6 months, and essentially all code within 12 months.</p>
+      <blockquote>&ldquo;I think we&#x27;ll be there in three to six months, where AI is writing 90 percent of the code. And then, in 12 months, we may be in a world where AI is writing essentially all of the code.&rdquo;</blockquote>
+      <p class="meta">Made <b>2025-03-10</b> &middot; target <b>2025-09-10</b></p>
+      <p class="src">Source: <a href="https://finance.yahoo.com/news/anthropic-ceo-says-ai-could-193020957.html" target="_blank" rel="noopener">Council on Foreign Relations event (reported)</a> (public remarks)</p>
+      <p class="notes">The 3-6 month window (Sep 2025) passed without the 90%-of-all-code threshold being met industry-wide. Amodei later softened to &#x27;on many teams.&#x27; Independent analyses (Redwood Research) found the claim unverified even within Anthropic.</p>
+    </article>
+    <article class="card" id="P006">
+      <div class="card-head">
+        <span class="id">P006</span>
+        <span class="badge" style="background:#a371f722;color:#a371f7;border:1px solid #a371f7">Walked Back</span>
+      </div>
+      <p class="cat">Labor &amp; Economy</p>
+      <p class="pred">AI could eliminate up to 50% of entry-level white-collar jobs within five years and push unemployment to 10-20%.</p>
+      <blockquote>&ldquo;AI could wipe out half of all entry-level white-collar jobs and spike unemployment to 10-20% in the next one to five years.&rdquo;</blockquote>
+      <p class="meta">Made <b>2025-05-28</b> &middot; target <b>2030-05-28</b></p>
+      <p class="src">Source: <a href="https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic" target="_blank" rel="noopener">Axios interview: &#x27;Behind the Curtain: A white-collar bloodbath&#x27;</a> (interview)</p>
+      <p class="notes">By May 2026, Amodei publicly tempered this forecast (Fortune), suggesting automation may expand work rather than purely destroy it. Yale Budget Lab found no meaningful unemployment shift for AI-exposed workers through early 2026, though entry-level tech hiring did fall sharply.</p>
+    </article>
+    <article class="card" id="P003">
+      <div class="card-head">
+        <span class="id">P003</span>
+        <span class="badge" style="background:#d2992222;color:#d29922;border:1px solid #d29922">Pending</span>
+      </div>
+      <p class="cat">Powerful AI / AGI Timeline</p>
+      <p class="pred">A &#x27;country of geniuses in a datacenter&#x27; (~50 million AI agents, each smarter than a Nobel laureate, running at 10-100x human speed) could materialize by 2027.</p>
+      <blockquote>&ldquo;a country of geniuses in a datacenter&rdquo;</blockquote>
+      <p class="meta">Made <b>2026-01-27</b> &middot; target <b>2027-12-31</b></p>
+      <p class="src">Source: <a href="https://darioamodei.com/essay/the-adolescence-of-technology" target="_blank" rel="noopener">The Adolescence of Technology</a> (essay)</p>
+      <p class="notes">Companion essay to Machines of Loving Grace, published Jan 2026; reaffirms the ~2027 powerful-AI window while emphasizing five risk categories.</p>
+    </article>
+  </div>
+</section>
+
+<footer>
+  Generated by Scripts/build_site.py &middot; data: Mem/predictions_db.json &middot;
+  This tracker logs publicly reported statements with primary-source links; it is an independent analytical project and is not affiliated with Anthropic or Dario Amodei.
+</footer>
+</div></body></html>

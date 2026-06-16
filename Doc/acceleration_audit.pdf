@@ -1,0 +1,264 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+4 0 obj
+<< /Length 3312 >>
+stream
+BT /F2 17 Tf 1 0 0 1 60 706 Tm (Tracking the Acceleration: An Empirical Audit of Dario) Tj ET
+BT /F2 17 Tf 1 0 0 1 60 683.56 Tm (Amodei's AI Timeline Predictions) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 655.12 Tm (*Report generated 2026-06-16. All claims are linked to explicit primary sources. This is an) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 641.26 Tm (independent analytical project, not affiliated with Anthropic.*) Tj ET
+BT /F2 14 Tf 1 0 0 1 60 607.4 Tm (Abstract) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 583.92 Tm (We maintain a continuously-updated, primary-source-anchored database of public) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 564.06 Tm (predictions made by Dario Amodei, CEO of Anthropic, concerning the arrival and) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 544.2 Tm (impact of "powerful AI." As of this revision the corpus contains) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 524.34 Tm (6 tracked predictions \(Pending: 4, Failed: 1, Walked Back: 1\). We test one principal) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 504.48 Tm (hypothesis \(H1\): that Amodei's successive "powerful AI" timelines exhibit a) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 484.62 Tm (*contracting prediction horizon* ? the interval between when a forecast is made) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 464.76 Tm (and its target date shrinks over calendar time ? which is the observable) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 444.9 Tm (signature of an accelerating \(super-exponential\) capability expectation. A) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 425.04 Tm (linear fit yields a horizon slope of **-0.1974 years per) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 405.18 Tm (calendar year \(R≤ = 0.9659**\), supported) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 385.32 Tm (of H1. We contextualise this with a first-order effective-compute growth model) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 365.46 Tm (and present the full prediction timeline as the report's central artifact.) Tj ET
+BT /F2 14 Tf 1 0 0 1 60 331.6 Tm (Introduction) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 308.12 Tm (Anthropic's public posture rests on a *scaling paradigm*: the thesis that) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 288.26 Tm (continued growth in training compute, data, and algorithmic efficiency yields) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 268.4 Tm (broadly predictable gains in model capability, extrapolating toward systems) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 248.54 Tm (Amodei describes as a "country of geniuses in a datacenter." Beginning with the) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 228.68 Tm (October 2024 essay *Machines of Loving Grace* and continuing through the January) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 208.82 Tm (2026 essay *The Adolescence of Technology*, Amodei has issued a series of dated,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 188.96 Tm (falsifiable forecasts spanning AGI timelines, software automation, biomedical) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 169.1 Tm (acceleration, and labour-market disruption.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 149.24 Tm (These forecasts are unusually concrete for a frontier-lab CEO, which makes them) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 129.38 Tm (auditable. This tracker exists to hold each claim against its primary source and) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 109.52 Tm (against unfolding events, and ? critically ? to quantify whether the *cadence*) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 89.66 Tm (of the forecasts is itself accelerating.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Length 3781 >>
+stream
+BT /F2 14 Tf 1 0 0 1 60 720 Tm (Methodology \(How the Science Was Done\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 696.52 Tm (Data gathering. Each prediction is logged in `Mem/predictions_db.json` only) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 676.66 Tm (when an explicit primary source \(essay, policy submission, recorded interview,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 656.8 Tm (or directly-quoted public remarks\) can be hyperlinked. Statements were located) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 636.94 Tm (via targeted web search and cross-checked against the canonical publication) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 617.08 Tm (\(e.g. `darioamodei.com` for essays\). Entries carry the verbatim quote where) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 597.22 Tm (available, the date made, an inferred target date, a status, and an assessment.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 577.36 Tm (Status verification. Each prediction is assigned one of: Pending, Achieved,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 557.5 Tm (Partial, Failed, or Walked Back. A claim moves to Failed when its explicit target) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 537.64 Tm (window elapses without realization \(e.g. the "90% of code in 3?6 months" claim,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 517.78 Tm (whose September 2025 window passed\), and to Walked Back when the predictor) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 497.92 Tm (publicly softens or retracts it \(corroborated by reporting\).) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 478.06 Tm (Thesis testing. `Scripts/thesis_acceleration.py` computes, for every) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 458.2 Tm (AGI-timeline prediction, the horizon = target ? made, then regresses horizon on) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 438.34 Tm (date-made. A significantly negative slope supports H1. A supporting) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 418.48 Tm (effective-compute model projects relative compute growth at an assumed) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 398.62 Tm (2.5 doublings/year) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 378.76 Tm (\(? 5.66◊ annually\) to contextualise the) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 358.9 Tm (~2027 window. All code is pure-standard-library and reproducible via) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 339.04 Tm (`Scripts/run_pipeline.sh`.) Tj ET
+BT /F2 14 Tf 1 0 0 1 60 305.18 Tm (Timeline Analysis \(Primary Function\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 281.7 Tm (The table below maps every tracked prediction from issuance to target, with its) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 261.84 Tm (realized horizon and current status. This timeline is the core artifact of the) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 241.98 Tm (project; the interactive version lives on the GitHub Pages site \(`docs/`\).) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 222.12 Tm (| ID | Category | Made | Target | Horizon \(yr\) | Status | Source |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 202.26 Tm (| P001 | Powerful AI | 2024-10-24 | 2026-12-31 | 2.18 | Pending | Machines of Loving Grace) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 188.4 Tm (\(https://darioamodei.com/essay/machines-of-loving-grace\) |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 168.54 Tm (| P005 | Biology & Health | 2025-01-21 | 2035-12-31 | 10.94 | Pending | World Economic Forum) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 154.68 Tm (\(Davos\) 2025 remarks \(reported\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 140.82 Tm (\(https://www.pymnts.com/artificial-intelligence-2/2025/anthropic-ceo-sees-ai-powered-advances) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 126.96 Tm (-doubling-human-lifespans/\) |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 107.1 Tm (| P002 | Powerful AI | 2025-03-06 | 2027-03-31 | 2.07 | Pending | Anthropic Recommendations) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 93.24 Tm (to OSTP for the U.S. AI Action Plan) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 79.38 Tm (\(https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan\) |) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Length 3579 >>
+stream
+BT /F1 10.5 Tf 1 0 0 1 60 720 Tm (| P004 | Software & Code Automation | 2025-03-10 | 2025-09-10 | 0.50 | Failed | Council on) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 706.14 Tm (Foreign Relations event \(reported\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 692.28 Tm (\(https://finance.yahoo.com/news/anthropic-ceo-says-ai-could-193020957.html\) |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 672.42 Tm (| P006 | Labor & Economy | 2025-05-28 | 2030-05-28 | 5.00 | Walked Back | Axios interview:) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 658.56 Tm ('Behind the Curtain: A white-collar bloodbath') Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 644.7 Tm (\(https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic\) |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 624.84 Tm (| P003 | Powerful AI | 2026-01-27 | 2027-12-31 | 1.92 | Pending | The Adolescence of) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 610.98 Tm (Technology \(https://darioamodei.com/essay/the-adolescence-of-technology\) |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 591.12 Tm (H1 ? contracting horizon. Regressing horizon on date-made across the) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 571.26 Tm (AGI-timeline predictions gives slope = -0.1974 yr/yr) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 551.4 Tm (\(R≤ = 0.9659\). SUPPORTED: prediction horizon is contracting over time \(-0.20 yr of horizon) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 537.54 Tm (per calendar yr\), the signature of an accelerating \(super-exponential\) capability) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 523.68 Tm (expectation.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 503.82 Tm (Supporting context ? effective compute. Under the stated assumption, relative) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 483.96 Tm (effective compute grows as:) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 464.1 Tm (| Year | Relative effective compute \(x 2024\) |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 444.24 Tm (| 2024 | 1.0x |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 424.38 Tm (| 2025 | 5.7x |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 404.52 Tm (| 2026 | 32.0x |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 384.66 Tm (| 2027 | 181.0x |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 364.8 Tm (| 2028 | 1,024.0x |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 344.94 Tm (| 2029 | 5,792.6x |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 325.08 Tm (| 2030 | 32,768.0x |) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 305.22 Tm (This projection is illustrative, not a claim of Amodei's; it situates why a) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 285.36 Tm (2026?2027 "powerful AI" window is internally consistent with the scaling) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 265.5 Tm (paradigm even as specific sub-claims \(e.g. code automation\) have slipped.) Tj ET
+BT /F2 12 Tf 1 0 0 1 60 235.64 Tm (Per-prediction detail) Tj ET
+BT /F2 12 Tf 1 0 0 1 60 206.8 Tm (P001 ? Powerful AI / AGI Timeline) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 187.96 Tm (Claim. "Powerful AI" \(a 'country of geniuses in a datacenter'\) could arrive as early as 2026) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 174.1 Tm (in the optimistic scenario.) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 152.24 Tm ("I think it could come as early as 2026... a country of geniuses in a datacenter.") Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 132.38 Tm (Made: 2024-10-24 ∑ Target: 2026-12-31 ∑ Status: Pending) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 112.52 Tm (Primary source: Machines of Loving Grace) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 98.66 Tm (\(https://darioamodei.com/essay/machines-of-loving-grace\) \(essay, darioamodei.com\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 78.8 Tm (Assessment. Defines 'powerful AI' as smarter than a Nobel laureate across most fields, with) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 64.94 Tm (the agency, tools, and speed of millions of copies. Seed entry.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Length 4055 >>
+stream
+BT /F2 12 Tf 1 0 0 1 60 720 Tm (P005 ? Biology & Health) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 701.16 Tm (Claim. AI could compress 50-100 years of biological progress into 5-10 years, potentially) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 687.3 Tm (doubling the human lifespan.) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 665.44 Tm ("I think AI could help us compress the next 50 to 100 years of biological progress into 5) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 651.58 Tm (to 10 years.") Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 631.72 Tm (Made: 2025-01-21 ∑ Target: 2035-12-31 ∑ Status: Pending) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 611.86 Tm (Primary source: World Economic Forum \(Davos\) 2025 remarks \(reported\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 598 Tm (\(https://www.pymnts.com/artificial-intelligence-2/2025/anthropic-ceo-sees-ai-powered-advances) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 584.14 Tm (-doubling-human-lifespans/\) \(interview, World Economic Forum / PYMNTS\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 564.28 Tm (Assessment. The 'compressed 21st century' thesis. Reasoning: 20th-century life expectancy) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 550.42 Tm (roughly doubled \(~40 to ~75\); a compressed 21st could double it again toward ~150.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 536.56 Tm (Long-horizon; remains Pending.) Tj ET
+BT /F2 12 Tf 1 0 0 1 60 506.7 Tm (P002 ? Powerful AI / AGI Timeline) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 487.86 Tm (Claim. Powerful AI systems will emerge in late 2026 or early 2027, with intellectual) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 474 Tm (capabilities matching or exceeding Nobel Prize winners across most disciplines.) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 452.14 Tm ("we expect powerful AI systems will emerge in late 2026 or early 2027... matching or) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 438.28 Tm (exceeding that of Nobel Prize winners across most disciplines.") Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 418.42 Tm (Made: 2025-03-06 ∑ Target: 2027-03-31 ∑ Status: Pending) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 398.56 Tm (Primary source: Anthropic Recommendations to OSTP for the U.S. AI Action Plan) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 384.7 Tm (\(https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan\) \(policy) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 370.84 Tm (submission, Anthropic\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 350.98 Tm (Assessment. Formal written policy submission; the most concrete dated AGI-timeline commitment) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 337.12 Tm (on record.) Tj ET
+BT /F2 12 Tf 1 0 0 1 60 307.26 Tm (P004 ? Software & Code Automation) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 288.42 Tm (Claim. AI will be writing 90% of all code within 3-6 months, and essentially all code within) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 274.56 Tm (12 months.) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 252.7 Tm ("I think we'll be there in three to six months, where AI is writing 90 percent of the) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 238.84 Tm (code. And then, in 12 months, we may be in a world where AI is writing essentially all of) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 224.98 Tm (the code.") Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 205.12 Tm (Made: 2025-03-10 ∑ Target: 2025-09-10 ∑ Status: Failed) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 185.26 Tm (Primary source: Council on Foreign Relations event \(reported\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 171.4 Tm (\(https://finance.yahoo.com/news/anthropic-ceo-says-ai-could-193020957.html\) \(public remarks,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 157.54 Tm (Council on Foreign Relations / Yahoo Finance\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 137.68 Tm (Assessment. The 3-6 month window \(Sep 2025\) passed without the 90%-of-all-code threshold) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 123.82 Tm (being met industry-wide. Amodei later softened to 'on many teams.' Independent analyses) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 109.96 Tm (\(Redwood Research\) found the claim unverified even within Anthropic.) Tj ET
+BT /F2 12 Tf 1 0 0 1 60 80.1 Tm (P006 ? Labor & Economy) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 61.26 Tm (Claim. AI could eliminate up to 50% of entry-level white-collar jobs within five years and) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Length 3807 >>
+stream
+BT /F1 10.5 Tf 1 0 0 1 60 720 Tm (push unemployment to 10-20%.) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 698.14 Tm ("AI could wipe out half of all entry-level white-collar jobs and spike unemployment to) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 684.28 Tm (10-20% in the next one to five years.") Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 664.42 Tm (Made: 2025-05-28 ∑ Target: 2030-05-28 ∑ Status: Walked Back) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 644.56 Tm (Primary source: Axios interview: 'Behind the Curtain: A white-collar bloodbath') Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 630.7 Tm (\(https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic\) \(interview,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 616.84 Tm (Axios\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 596.98 Tm (Assessment. By May 2026, Amodei publicly tempered this forecast \(Fortune\), suggesting) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 583.12 Tm (automation may expand work rather than purely destroy it. Yale Budget Lab found no meaningful) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 569.26 Tm (unemployment shift for AI-exposed workers through early 2026, though entry-level tech hiring) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 555.4 Tm (did fall sharply.) Tj ET
+BT /F2 12 Tf 1 0 0 1 60 525.54 Tm (P003 ? Powerful AI / AGI Timeline) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 506.7 Tm (Claim. A 'country of geniuses in a datacenter' \(~50 million AI agents, each smarter than a) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 492.84 Tm (Nobel laureate, running at 10-100x human speed\) could materialize by 2027.) Tj ET
+BT /F3 10.5 Tf 1 0 0 1 78 470.98 Tm ("a country of geniuses in a datacenter") Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 451.12 Tm (Made: 2026-01-27 ∑ Target: 2027-12-31 ∑ Status: Pending) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 431.26 Tm (Primary source: The Adolescence of Technology) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 417.4 Tm (\(https://darioamodei.com/essay/the-adolescence-of-technology\) \(essay, darioamodei.com\)) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 397.54 Tm (Assessment. Companion essay to Machines of Loving Grace, published Jan 2026; reaffirms the) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 383.68 Tm (~2027 powerful-AI window while emphasizing five risk categories.) Tj ET
+BT /F2 14 Tf 1 0 0 1 60 349.82 Tm (Conclusions) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 326.34 Tm (The evidence base is mixed but structured. On AGI timing, the load-bearing) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 306.48 Tm (forecasts \(P002, P003\) remain *Pending* and squarely live: the late-2026/early-2027) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 286.62 Tm (window has not yet elapsed, and the cadence of Amodei's forecasts is measurably) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 266.76 Tm (*tightening* \(H1 supported\), consistent with an accelerationist read of the) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 246.9 Tm (scaling curve. On near-term operational claims, the record is weaker: the) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 227.04 Tm ("90% of code" forecast \(P004\) failed its explicit window, and the) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 207.18 Tm ("white-collar bloodbath" labour forecast \(P006\) has been walked back amid) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 187.32 Tm (employment data that has so far not confirmed it.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 167.46 Tm (The synthesis: Amodei is more calibrated on *capability emergence at the) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 147.6 Tm (research frontier* than on *the speed of real-world diffusion* \(code, jobs\),) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 127.74 Tm (where institutional and adoption frictions dominate. The next revisions of this) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 107.88 Tm (report will watch the 2026?2027 window closely, as it is decisive for P001?P003.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 88.02 Tm (---) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 60 68.16 Tm (*Reproduce: `bash Scripts/run_pipeline.sh`. Data and sources: `Mem/`. Generated by an) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Length 63 >>
+stream
+BT /F1 10.5 Tf 1 0 0 1 60 720 Tm (autonomous R&D agent.*) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 16 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 16 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 5 0 R >>
+endobj
+12 0 obj
+<< /Type /Page /Parent 16 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+13 0 obj
+<< /Type /Page /Parent 16 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 7 0 R >>
+endobj
+14 0 obj
+<< /Type /Page /Parent 16 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 8 0 R >>
+endobj
+15 0 obj
+<< /Type /Page /Parent 16 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 9 0 R >>
+endobj
+16 0 obj
+<< /Type /Pages /Kids [10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R] /Count 6 >>
+endobj
+17 0 obj
+<< /Type /Catalog /Pages 16 0 R >>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000000238 00000 n 
+0000003602 00000 n 
+0000007435 00000 n 
+0000011066 00000 n 
+0000015173 00000 n 
+0000019032 00000 n 
+0000019145 00000 n 
+0000019293 00000 n 
+0000019441 00000 n 
+0000019589 00000 n 
+0000019737 00000 n 
+0000019885 00000 n 
+0000020033 00000 n 
+0000020127 00000 n 
+trailer
+<< /Size 18 /Root 17 0 R >>
+startxref
+20178
+%%EOF
