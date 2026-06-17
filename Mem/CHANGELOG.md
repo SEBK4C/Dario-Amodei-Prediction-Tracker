@@ -5,6 +5,18 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 4 — 2026-06-17T22:06:43+00:00
+
+- Deterministic refresh: 24 predictions (achieved: 2, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- **Research (EXPAND):** Added `revenue_10x_growth_2026` — Amodei's ~10x annual
+  revenue-growth planning assumption (~$10B 2026 revenue, "off by a year... you go
+  bankrupt"), stated on the Dwarkesh podcast (2026-02-13). Scored **achieved and
+  exceeded**: Anthropic reported ~80x annualized Q1 2026 growth and a ~$47B run
+  rate by late May 2026 — ~8x past the forecast. Second resolved case; the
+  realized outcome outran the CEO's own projection, a clean acceleration signal.
+
+
 ## Iteration 3 — 2026-06-17T06:45:52+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).

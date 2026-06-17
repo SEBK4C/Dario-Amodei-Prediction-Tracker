@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -532,3 +532,40 @@ predictions:
       of the H2 subset). Air date approximate (Nov 2025); 'within two years'
       normalized to 2027-11-16. Confidence medium pending verbatim verification
       against the primary transcript.
+
+  - id: revenue_10x_growth_2026
+    theme: anthropic_milestone
+    quote: "If I'm just off by a year in that rate of growth, or if the growth rate is 5x a year instead of 10x a year, then you go bankrupt."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+    predicted_horizon_verbatim: "~10x annual revenue growth (planned ~$10B in 2026)"
+    predicted_date: 2026-12-31
+    status: achieved
+    resolved_date: 2026-05-29
+    confidence: high
+    tags: [revenue_growth, scaling]
+    evidence:
+      - url: "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html"
+        date: 2026-05-20
+        note: "Anthropic posted $4.8B Q1 revenue and is tracking ~$10.9B in Q2 alone — H1 2026 already exceeds the full-year ~$10B planning assumption."
+      - url: "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth"
+        date: 2026-05-21
+        note: "Amodei: Q1 2026 saw ~80x annualized growth in revenue and usage against a planned 10x — actual ran ~8x ahead of the forecast."
+      - url: "https://simonwillison.net/2026/May/29/anthropic/"
+        date: 2026-05-29
+        note: "Run-rate revenue reported at ~$47B (up from ~$9B at end of 2025), ~$96M ARR added per day."
+      - url: "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+        date: 2026-05-28
+        note: "Anthropic tops OpenAI as most valuable AI startup, nearing a $1T valuation — corroborating the revenue trajectory."
+    notes: >-
+      Scored claim is the ~10x annual revenue-growth planning assumption (and the
+      implied ~$10B 2026 revenue) Amodei stated on the Dwarkesh podcast, framed
+      via the bankruptcy-risk line. ACHIEVED — and notably EXCEEDED to the upside:
+      Anthropic reported ~80x annualized Q1 2026 growth and a ~$47B run rate by
+      late May 2026, roughly 8x past the 10x assumption. A clean acceleration data
+      point where the realized outcome outran even the CEO's own forecast.
+      Normalized to end of 2026; resolved_date = the 2026-05-29 ~$47B run-rate
+      report at which the full-year target was demonstrably surpassed.
