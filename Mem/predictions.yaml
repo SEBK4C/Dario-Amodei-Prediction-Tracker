@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -487,6 +487,34 @@ predictions:
       Near-term, concrete, and scoreable by end of 2026. Snippet-sourced quote;
       confidence medium pending primary verification.
 
+  - id: anthropic_revenue_100b_2026_1t_2027
+    theme: anthropic_milestone
+    quote: "If revenue keeps growing 10x a year... it's $100 billion at the end of [2026], $1 trillion at the end of [2027]. What if the country of geniuses comes, but it comes in mid-2028 instead of mid-2027? You go bankrupt."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://www.datacenterdynamics.com/en/news/anthropic-ceo-the-way-you-buy-these-data-centers-if-youre-off-by-a-couple-years-can-be-ruinous/"
+    predicted_horizon_verbatim: "$100B end of 2026; $1T end of 2027 (if 10x/yr continues)"
+    predicted_date: 2026-12-31
+    status: in_window
+    confidence: low
+    tags: [revenue, scaling, compute_economics]
+    evidence:
+      - url: "https://simonwillison.net/2026/May/29/anthropic/"
+        date: 2026-05-29
+        note: "Anthropic run-rate revenue hit $47B in May 2026 ($14B Feb -> $19B Mar -> $30B Apr -> $47B May) — on a ~10x/yr trajectory toward the $100B end-2026 checkpoint."
+      - url: "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html"
+        date: 2026-05-20
+        note: "Anthropic projected ~$10.9B Q2 2026 revenue; first frontier lab on track for a quarterly operating profit."
+    notes: >-
+      Explicitly an illustrative 10x-per-year extrapolation Amodei used to frame
+      datacenter-buildout timing risk, NOT a firm point forecast — hence
+      confidence low. Two dated checkpoints: ~$100B annualized at end of 2026 and
+      ~$1T at end of 2027. Normalized to the nearer, more scoreable checkpoint
+      (2026-12-31, the $100B run-rate). As of May 2026 the run rate ($47B) is
+      tracking the 10x pace. Directly relevant to the acceleration thesis: it
+      ties compute/revenue scaling to his 'country of geniuses' AGI timeline.
   - id: asl4_threshold_within_2_years
     theme: safety_scaling
     quote: "[A] reasonable probability of capabilities that would likely cross the ASL-4 threshold (CBRN-4) within the next 2 years."

@@ -1,10 +1,10 @@
 {
-  "iteration": 2,
-  "last_run_utc": "2026-06-16T22:40:56+00:00",
-  "as_of_date": "2026-06-16",
-  "prediction_count": 23,
+  "iteration": 3,
+  "last_run_utc": "2026-06-17T06:07:29+00:00",
+  "as_of_date": "2026-06-17",
+  "prediction_count": 24,
   "status_counts": {
-    "in_window": 18,
+    "in_window": 19,
     "pending": 3,
     "achieved": 1,
     "partially": 1
@@ -12,7 +12,9 @@
   "agenda": {
     "resolve_now": [],
     "deadline_within_180d": [],
-    "low_confidence_needs_better_source": []
+    "low_confidence_needs_better_source": [
+      "anthropic_revenue_100b_2026_1t_2027"
+    ]
   },
   "history": [
     {
@@ -24,6 +26,11 @@
       "iteration": 2,
       "at": "2026-06-16T22:40:56+00:00",
       "count": 23
+    },
+    {
+      "iteration": 3,
+      "at": "2026-06-17T06:07:29+00:00",
+      "count": 24
     }
   ]
 }
