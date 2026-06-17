@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -345,9 +345,33 @@ predictions:
         note: "Essay; Amodei flags he is 'not an expert in psychiatric disease' and calls it a guess."
     notes: "Self-described guess; quote condenses adjacent sentences. Conditional horizon -> ~2036."
 
-  # ----------------------------------------------------------------------
-  # Economy / jobs
-  # ----------------------------------------------------------------------
+  - id: ai_simulation_replaces_clinical_experiments
+    theme: science_bio_health
+    quote: "Many steps in the clinical process that previously required expensive and slow experiments may soon be done via AI simulation or analysis."
+    speaker: Dario Amodei
+    date_said: 2026-06-10
+    venue: "Policy on the AI Exponential (essay), darioamodei.com"
+    primary_url: "https://darioamodei.com/post/policy-on-the-ai-exponential"
+    archive_url: "https://www.business-standard.com/technology/artificial-intelligence/why-anthropic-ceo-dario-amodei-wants-ai-regulated-like-aviation-and-pharma-126061100324_1.html"
+    predicted_horizon_verbatim: "may soon (no precise date)"
+    predicted_date: 2031-06-10
+    status: pending
+    confidence: medium
+    tags: [biomedicine, drug_discovery]
+    evidence:
+      - url: "https://www.writingruxandrabio.com/p/a-response-to-dario-amodei-on-ai"
+        date: 2026-06-12
+        note: "Domain-expert response engaging directly with Amodei's clinical-trials acceleration claims (PD/PK modeling, in-silico toxicology, dose selection)."
+    notes: >-
+      New as of the 2026-06-10 essay; distinct from the powerful-AI 'year or two'
+      claim already captured from the same essay (policy_exponential_year_or_two).
+      Amodei argues AI will sharply increase the rate of new drug candidates and
+      let in-silico simulation replace slow/expensive clinical experiments
+      (PD/PK modeling, multi-species toxicology, dose selection). No hard date
+      given ('may soon'); normalized to a 5-year scenario window (2031-06-10).
+      Quote wording is cross-attested across coverage but primary fetch was
+      blocked (HTTP 403) on 2026-06-17 — verify verbatim against the primary on
+      next run. Confidence medium pending that verification.
   - id: entry_level_white_collar_jobs
     theme: economy_jobs
     quote: "Cancer is cured, the economy grows at 10% a year, the budget is balanced - and 20% of people don't have jobs."
