@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -532,3 +532,36 @@ predictions:
       of the H2 subset). Air date approximate (Nov 2025); 'within two years'
       normalized to 2027-11-16. Confidence medium pending verbatim verification
       against the primary transcript.
+
+  - id: anthropic_breakeven_2028
+    theme: anthropic_milestone
+    quote: "Anthropic does not expect to reach full-year profitability until at least 2028, targeting roughly $70B revenue and $17B cash flow that year."
+    speaker: "Anthropic (Dario Amodei, CEO) — investor projections"
+    date_said: 2026-06-14
+    venue: "Anthropic investor projections, as reported (TipRanks / StartupHub financial breakdown)"
+    primary_url: "https://www.tipranks.com/news/amazon-and-google-backed-anthropic-says-revenue-could-reach-34-5b-in-2027"
+    archive_url: "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-dario-amodei-company-financial-breakdown-2026-06-14"
+    predicted_horizon_verbatim: "break-even / full-year profitability by 2028"
+    predicted_date: 2028-12-31
+    status: in_window
+    confidence: medium
+    tags: [revenue, profitability]
+    evidence:
+      - url: "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth"
+        date: 2026-05-01
+        note: "Anthropic reports ~80x annualized growth vs a planned 10x — targets repeatedly exceeded."
+      - url: "https://www.tipranks.com/news/amazon-and-google-backed-anthropic-says-revenue-could-reach-34-5b-in-2027"
+        date: 2026-06-14
+        note: "Forward forecast: revenue could reach ~$34.5B in 2027 en route to 2028 break-even."
+      - url: "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-dario-amodei-company-financial-breakdown-2026-06-14"
+        date: 2026-06-14
+        note: "ARR ~$47B by mid-2026 vs a ~$26B full-year 2026 target — the acceleration story in dollars."
+    notes: >-
+      Forward-looking financial forecast made under Amodei's leadership and a
+      direct dollar-denominated proxy for the compute-scaling thesis. Window open
+      (resolves by end of 2028). Quote is reconstructed from coverage of investor
+      projections; figures ($70B revenue / $17B cash flow / 2028 break-even,
+      ~$34.5B revenue in 2027) corroborated across multiple outlets but should be
+      verified against a primary investor document. Snippet-sourced; confidence
+      medium. Notably, prior targets (10x growth, ~$26B in 2026) have been
+      exceeded — itself a data point for the acceleration analysis.
