@@ -5,6 +5,21 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 4 — 2026-06-17T09:08:53+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research: strengthened `entry_level_white_collar_jobs` with the May 2026
+  walk-back (Fortune, May 5 & 26) plus macro counter-evidence (Yale Budget Lab,
+  Goldman AI Adoption Tracker, via AI Magazine). The "50% of entry-level jobs /
+  10-20% unemployment in 1-5 years" claim is now trending toward OVERSTATED;
+  status stays in_window (resolves 2030).
+- Reviewed but did not log: a reported "70% chance AI handles a majority of
+  technical tasks at Anthropic this year" (only weak secondary sourcing for the
+  underlying staff memo — fails the no-source-no-entry rule). Watch for a
+  primary/near-primary source.
+
+
 ## Iteration 3 — 2026-06-17T06:45:52+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).

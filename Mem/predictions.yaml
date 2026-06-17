@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -365,12 +365,24 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/"
+        date: 2026-05-05
+        note: "Amodei begins reframing via Jevons paradox — automation may expand the work people do — softening the 'bloodbath' framing."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: "Fortune: Amodei (and Altman) walking back the AI jobs-apocalypse predictions ahead of IPOs."
+      - url: "https://aimagazine.com/news/altman-amodei-drop-ai-job-predictions"
+        date: 2026-05-27
+        note: "Macro counter-evidence cited: Yale Budget Lab finds no meaningful change in unemployment for AI-exposed workers since 2022; Goldman AI Adoption Tracker net losses ~30% below prior estimate."
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. Status remains in_window (resolves 2030), but as of mid-2026 the
+      claim is trending toward OVERSTATED: Amodei has partly walked it back
+      (Jevons-paradox framing, May 2026) and macro data (Yale Budget Lab, Goldman)
+      shows no AI-driven unemployment surge yet. Skeptics tie the reversal to the
+      pending Anthropic IPO. To be re-scored as the window matures.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs
