@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -369,8 +369,39 @@ predictions:
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. Note: on 2026-05-05 Amodei partly walked this back with a
+      Jevons-paradox augmentation framing — now tracked as its own record
+      `jevons_augmentation_90_10`.
+
+  - id: jevons_augmentation_90_10
+    theme: economy_jobs
+    quote: "If you automate 90% of the job, then everyone does the 10% of the job, and the 10% kind of expands to be 100% of what people do and kind of 10xs their productivity."
+    speaker: Dario Amodei
+    date_said: 2026-05-05
+    venue: "Anthropic 'The Briefing: Financial Services', Lower Manhattan (onstage with JPMorgan CEO Jamie Dimon)"
+    primary_url: "https://www.cnbc.com/video/2026/05/06/anthropics-dario-amodei-and-jpmorgans-jamie-dimon-on-ai-boom-ai-regulation-impact-on-jobs.html"
+    archive_url: ""
+    predicted_horizon_verbatim: "no precise date (augmentation thesis)"
+    predicted_date: 2030-05-05
+    status: unverifiable
+    confidence: medium
+    tags: [labor_market, augmentation, jevons_paradox]
+    evidence:
+      - url: "https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/"
+        date: 2026-05-05
+        note: "Fortune coverage of the Dimon event; full Jevons-paradox / Amdahl's-law framing and the verbatim quote."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: "Fortune: characterizes the May remarks as Amodei walking back the white-collar 'bloodbath' prediction ahead of an IPO."
+    notes: >-
+      A reframing of his 2025 white-collar-displacement warning toward
+      augmentation: per Jevons paradox / Amdahl's law, automating the bulk of a
+      task raises output and 10x's the productivity of the residual human work
+      rather than purely eliminating jobs. No dated horizon, so marked
+      'unverifiable' (qualitative thesis, not an objectively scorable dated
+      claim); predicted_date set to a nominal 5-year scenario window. Directly
+      tempers `entry_level_white_collar_jobs` and is a key data point for the
+      "is he revising down the displacement thesis?" question.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs
