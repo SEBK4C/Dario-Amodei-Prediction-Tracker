@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -440,6 +440,33 @@ predictions:
       Clean resolved case. Predicted 'next year' (2025) in Nov 2024; ASL-3 was
       activated 2025-05-22, ~7 months ahead of the year-end deadline (lead ~+223
       days).
+
+  - id: claude_constitution_alignment_2026
+    theme: safety_scaling
+    quote: "We believe that a feasible goal for 2026 is to train Claude in such a way that it almost never goes against the spirit of its constitution."
+    speaker: "Anthropic (Dario Amodei, CEO)"
+    date_said: 2026-01-22
+    venue: "Claude's new constitution (announcement), anthropic.com"
+    primary_url: "https://www.anthropic.com/news/claude-new-constitution"
+    archive_url: "https://www-cdn.anthropic.com/d0636f72a9493d279ed36b33987da3430bcb5911/claudes-constitution_webPDF_26-02.02a.pdf"
+    predicted_horizon_verbatim: "a feasible goal for 2026"
+    predicted_date: 2026-12-31
+    status: in_window
+    confidence: high
+    tags: [responsible_scaling, alignment]
+    evidence:
+      - url: "https://time.com/7354738/claude-constitution-ai-alignment/"
+        date: 2026-01-22
+        note: "TIME coverage of the 23,000-word constitution release confirming date and framing."
+      - url: "https://www.theregister.com/2026/01/22/anthropic_claude_constitution/"
+        date: 2026-01-22
+        note: "The Register corroborates the Jan 22 2026 publication and the reason-based alignment goal."
+    notes: >-
+      Concrete, near-term, end-of-2026-scoreable alignment milestone stated by
+      Anthropic under Amodei's leadership. The 23,000-word constitution (CC0)
+      reframes alignment from rule-based to reason-based; the company itself
+      flags the goal is aspirational and "will likely prove misguided in
+      retrospect." Normalized to 2026-12-31. In window as of 2026-06-17.
 
   - id: interpretability_detect_problems_2027
     theme: safety_scaling

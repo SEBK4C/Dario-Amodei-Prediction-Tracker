@@ -5,6 +5,19 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 4 — 2026-06-17T10:06:09+00:00
+
+- Deterministic refresh: 24 predictions (achieved: 1, in_window: 19, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- **Research (EXPAND):** Added `claude_constitution_alignment_2026` — Anthropic's
+  stated "feasible goal for 2026" that Claude almost never goes against the
+  spirit of its constitution (Claude's new constitution, 2026-01-22). Concrete,
+  end-of-2026-scoreable alignment milestone; primary source + TIME/Register
+  corroboration. Verified the existing code-writing prediction against fresh
+  June 2026 commentary (Redwood Research / Daring Fireball "claim chowder") —
+  status `partially` unchanged.
+
+
 ## Iteration 3 — 2026-06-17T06:45:52+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
