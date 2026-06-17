@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -365,6 +365,16 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: >-
+          Walk-back: as IPOs loom, Amodei reframes automation as a productivity
+          multiplier (Jevons paradox) rather than a wholesale job destroyer.
+      - url: "https://www.thenews.com.pk/latest/1405540-anthropic-ceo-dario-amodei-fires-back-at-ai-doom-marketing-critics-including-jensen-huang"
+        date: 2026-06-11
+        note: >-
+          June 2026 (Bloomberg 'The Circuit'): pushes back on 'doom marketing'
+          label — 'no doom is coming, but this is something we should see coming.'
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
@@ -414,6 +424,38 @@ predictions:
     notes: >-
       Amodei explicitly frames this as aspirational, not a default forecast.
       Conditional 5-10y horizon -> ~2036. Pending.
+
+  - id: trillions_revenue_before_2030
+    theme: economy_jobs
+    quote: "It is hard for me to see that there won't be trillions of dollars in revenue before 2030."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://podscripts.co/podcasts/dwarkesh-podcast/dario-amodei-the-highest-stakes-financial-model-in-history"
+    predicted_horizon_verbatim: "trillions of dollars in revenue before 2030"
+    predicted_date: 2029-12-31
+    status: in_window
+    confidence: medium
+    tags: [macroeconomics, anthropic_milestone]
+    evidence:
+      - url: "https://finance.yahoo.com/news/anthropic-ceo-dario-amodei-explains-212316721.html"
+        date: 2026-02-13
+        note: >-
+          Coverage of the same Dwarkesh financial-model discussion; he warns that
+          if growth forecasts are off 'by just a year ... then you go bankrupt'.
+      - url: "https://www.theinformation.com/articles/anthropic-projects-70-billion-revenue-17-billion-cash-flow-2028"
+        date: 2025-11-04
+        note: >-
+          Anthropic's internal projection of ~$70B revenue by 2028 — the
+          'low hundreds of billions by 2028' intermediate milestone he cites.
+    notes: >-
+      Industry-wide AI revenue forecast (not Anthropic-only) from the Feb 2026
+      Dwarkesh episode. He frames an intermediate 'low hundreds of billions by
+      2028' rising to 'trillions' once the 'country of geniuses' arrives. 'Before
+      2030' normalized to 2029-12-31. Snippet/transcript-sourced (the primary
+      Dwarkesh page is CDN-blocked at fetch time); confidence medium pending
+      verbatim verification against the primary audio/transcript. Scoreable.
 
   # ----------------------------------------------------------------------
   # Safety / scaling (ASL / interpretability)
