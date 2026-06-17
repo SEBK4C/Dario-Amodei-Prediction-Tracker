@@ -2,7 +2,7 @@ name: Build & deploy site
 
 on:
   push:
-    branches: [main, "claude/zen-mendel-w888uy"]
+    branches: [main, "claude/zen-lamport-0ghlgk"]
   workflow_dispatch:
   schedule:
     # Daily export to GitHub Pages (the "cron export criteria").

@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -486,6 +486,35 @@ predictions:
     notes: >-
       Near-term, concrete, and scoreable by end of 2026. Snippet-sourced quote;
       confidence medium pending primary verification.
+
+  - id: revenue_10x_per_year_trillion_2027
+    theme: anthropic_milestone
+    quote: "If I'm just off by a year in that rate of growth, or if the growth rate is 5x a year instead of 10x a year, then you go bankrupt."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+    predicted_horizon_verbatim: "~10x revenue growth per year (→ ~$1T run-rate by end of 2027)"
+    predicted_date: 2027-12-31
+    status: in_window
+    confidence: medium
+    tags: [revenue, scaling_economics]
+    evidence:
+      - url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+        date: 2026-02-14
+        note: "Fortune coverage of the Dwarkesh interview: ~10x/yr growth trajectory; off-by-a-year / 5x-vs-10x bankruptcy warning; ~$1T implied by end of 2027."
+      - url: "https://www.datacenterdynamics.com/en/news/anthropic-ceo-the-way-you-buy-these-data-centers-if-youre-off-by-a-couple-years-can-be-ruinous/"
+        date: 2026-02-14
+        note: "DCD corroboration; annualized revenue ~$14B early 2026, growing ~10x/yr from ~zero in 2023."
+    notes: >-
+      Concrete, near-term, scoreable financial-scaling prediction from the same
+      Feb 2026 Dwarkesh episode as `dwarkesh_2026_country_of_geniuses_hunch`.
+      Scored claim: revenue compounding ~10x/year, implying a ~$1T run-rate by
+      end of 2027. As of mid-2026 reality is ahead of the curve — reporting puts
+      annualized revenue at ~$9B (end 2025) rising to ~$30B by April 2026, i.e.
+      above the 10x/yr pace. Range normalized to end of 2027. Quote is the
+      verbatim risk framing; full revenue figures in evidence/notes.
 
   - id: asl4_threshold_within_2_years
     theme: safety_scaling
