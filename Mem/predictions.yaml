@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -414,6 +414,34 @@ predictions:
     notes: >-
       Amodei explicitly frames this as aspirational, not a default forecast.
       Conditional 5-10y horizon -> ~2036. Pending.
+
+  - id: trillions_ai_revenue_before_2030
+    theme: economy_jobs
+    quote: "It is hard for me to see that there won't be trillions of dollars in revenue before 2030."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+    predicted_horizon_verbatim: "trillions of dollars in revenue before 2030"
+    predicted_date: 2029-12-31
+    status: in_window
+    confidence: medium
+    tags: [macroeconomics, revenue]
+    evidence:
+      - url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+        date: 2026-02-14
+        note: >-
+          Fortune coverage of the Dwarkesh interview: Anthropic revenue tracking
+          ~$10B in 2026 at ~10x/year; on that trajectory revenue could top $1T,
+          with 'trillions in revenue before 2030.'
+    notes: >-
+      Concrete, scoreable economic forecast distinct from the GDP-growth
+      scenarios. Conditioned on ~10x/year revenue growth continuing (he warns
+      that being 'off by a year' or at 5x instead of 10x means bankruptcy).
+      'Before 2030' normalized to 2029-12-31. Snippet/secondary-sourced
+      (dwarkesh.com primary was unreachable at fetch time); confidence medium
+      pending verbatim verification against the primary transcript.
 
   # ----------------------------------------------------------------------
   # Safety / scaling (ASL / interpretability)
