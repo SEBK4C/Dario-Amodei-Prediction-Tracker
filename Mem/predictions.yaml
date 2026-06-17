@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-17
 
 predictions:
   # ----------------------------------------------------------------------
@@ -414,6 +414,37 @@ predictions:
     notes: >-
       Amodei explicitly frames this as aspirational, not a default forecast.
       Conditional 5-10y horizon -> ~2036. Pending.
+
+  - id: ai_revenue_trillions_before_2030
+    theme: economy_jobs
+    quote: "It is hard for me to see that there won't be trillions of dollars in revenue before 2030."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy"
+    predicted_horizon_verbatim: "trillions in revenue before 2030 (low hundreds of billions by 2028)"
+    predicted_date: 2029-12-31
+    status: in_window
+    confidence: medium
+    tags: [macroeconomics, ai_revenue]
+    evidence:
+      - url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy"
+        date: 2026-02-14
+        note: "Fortune coverage of the Dwarkesh interview; the revenue ramp and the '$800B / go bankrupt' compute caveat."
+      - url: "https://finance.yahoo.com/news/anthropic-ceo-dario-amodei-explains-212316721.html"
+        date: 2026-02-14
+        note: "Yahoo Finance mirror corroborating the revenue forecast and spending-caution framing."
+    notes: >-
+      Industry-wide AI revenue forecast from the Dwarkesh podcast (same episode as
+      dwarkesh_2026_country_of_geniuses_hunch). Verbal ramp: low hundreds of
+      billions by 2028, accelerating to 'trillions' before 2030 -> scoreable
+      resolve-by date normalized to 2029-12-31. Hedged with his own caution that
+      if forecasts slip a year the capex implies bankruptcy ("if it's even $800
+      billion... no force on Earth could stop me from going bankrupt"). Quote and
+      figures snippet-sourced (transcript pages were fetch-blocked at run time);
+      confidence medium pending verbatim verification against the primary
+      transcript.
 
   # ----------------------------------------------------------------------
   # Safety / scaling (ASL / interpretability)

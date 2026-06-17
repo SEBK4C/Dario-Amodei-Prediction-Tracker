@@ -5,6 +5,19 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 4 — 2026-06-17T12:07:47+00:00
+
+- Deterministic refresh: 24 predictions (achieved: 1, in_window: 19, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- EXPAND: added `ai_revenue_trillions_before_2030` — Amodei's Dwarkesh-podcast
+  (2026-02-13) forecast of "trillions of dollars in revenue before 2030" (low
+  hundreds of billions by 2028), normalized to a 2029-12-31 resolve-by date.
+  Cited to the Dwarkesh primary plus Fortune/Yahoo coverage of the spending-
+  caution framing. Web research this run was snippet-only (WebFetch 403-blocked
+  by the environment network policy); confidence set to medium pending verbatim
+  transcript verification.
+
+
 ## Iteration 3 — 2026-06-17T06:45:52+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
