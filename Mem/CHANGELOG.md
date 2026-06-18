@@ -5,6 +5,22 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-18T09:05:15+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (EXPAND): no NEW dated, scoreable prediction since the 2026-06-10
+  "Policy on the AI Exponential" essay. Amodei's 2026-06-17 G7 address at
+  Évian-les-Bains (with Altman & Hassabis) was policy advocacy — calling on
+  democracies to "resist the temptation to splinter" on AI — with no new timeline
+  forecast, so it was not logged as a prediction.
+- Strengthened `entry_level_white_collar_jobs` with two primary citations
+  (Fortune 2026-05-05 and 2026-05-26) documenting Amodei's Jevons-paradox
+  reframing of the "50% of entry-level white-collar jobs" claim — softening, not
+  retracting, the forecast. Status held at in_window (no macro labor data yet
+  shows the predicted 10-20% unemployment).
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
