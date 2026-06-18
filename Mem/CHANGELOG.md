@@ -5,6 +5,21 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Research — 2026-06-18 (Claude /research)
+
+- Updated `entry_level_white_collar_jobs` with the May 2026 walk-back: Amodei
+  publicly reframed the "50% of entry-level white-collar jobs" prediction toward
+  a Jevons-paradox "productivity multiplier" framing.
+- Added two dated primary-source evidence links (Fortune 2026-05-05 and
+  2026-05-26, the latter quoting his "automate 90% → everyone does the 10%"
+  remark from the JPMorgan/Jamie Dimon briefing) plus the Yale Budget Lab
+  counter-evidence that AI-exposed unemployment has not moved.
+- Verified the "end of the exponential" Dwarkesh episode is the already-logged
+  2026-02-13 interview (`dwarkesh_2026_country_of_geniuses_hunch`), not new.
+- No new dated prediction met the "explicit, hyperlinked primary source" bar
+  this cycle (the "trillions by 2030" revenue line lacked a verifiable verbatim
+  primary), so none was added.
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
