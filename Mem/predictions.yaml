@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-18
 
 predictions:
   # ----------------------------------------------------------------------
@@ -476,16 +476,35 @@ predictions:
     archive_url: ""
     predicted_horizon_verbatim: "2026 (~70-80% chance, per his same-day caveat)"
     predicted_date: 2026-12-31
-    status: in_window
+    status: partially
+    resolved_date: 2026-04-02
     confidence: medium
     tags: [solopreneur]
     evidence:
       - url: "https://www.inc.com/ben-sherry/anthropic-ceo-dario-amodei-predicts-the-first-billion-dollar-solopreneur-by-2026/91193609"
         date: 2026-05-06
         note: "Asked when the first 1-person $1B company would exist, he answered '2026'; later put it at ~70-80% likely."
+      - url: "https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/"
+        date: 2026-04-03
+        note: "Medvi (GLP-1 telehealth) did $401M revenue its first full year, tracking ~$1.8B in 2026 — built with AI tools (Claude, ChatGPT, Grok). Sources the NYT 2026-04-02 report."
+      - url: "https://www.newsnationnow.com/health/ai-telehealth-startup-billions-matthew-gallagher/"
+        date: 2026-04-03
+        note: "Founder Matthew Gallagher started Medvi Sept 2024 with $20k; headcount is TWO (he + brother Elliot), ~$3M/day."
+      - url: "https://www.techdirt.com/2026/04/07/the-new-york-times-got-played-by-a-telehealth-scam-and-called-it-the-future-of-ai/"
+        date: 2026-04-07
+        note: "Skeptical counter-coverage: FDA warning, lawsuits, AI-generated patient photos — milestone is contested."
     notes: >-
-      Near-term, concrete, and scoreable by end of 2026. Snippet-sourced quote;
-      confidence medium pending primary verification.
+      PARTIALLY resolved (2026-04-02). Medvi, an AI-operated GLP-1 telehealth
+      company, hit $401M revenue in its first full year and is tracking ~$1.8B
+      for 2026 — the closest real-world instantiation of the prediction and a
+      strong signal the AI-leveraged solo-founder thesis is materializing inside
+      the predicted window. But the LETTER of "one-person" is not met: Medvi has
+      two people (founder Matthew Gallagher + his brother Elliot), and the $1B+
+      figure is REVENUE, not valuation. The milestone is also contested (FDA
+      warning, lawsuits, AI-generated patient imagery). Scored partially (0.5
+      credit): spirit realized, strict "one-person" criterion not yet met. A
+      genuinely single-person $1B company by 2026-12-31 would upgrade this to
+      achieved; resolved_date = NYT's 2026-04-02 report that surfaced Medvi.
 
   - id: asl4_threshold_within_2_years
     theme: safety_scaling

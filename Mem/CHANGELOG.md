@@ -5,6 +5,24 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-18T14:06:15+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 17, partially: 2, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- **Research (agent):** Resolved `one_person_billion_dollar_company_2026`
+  `in_window → partially` (resolved_date 2026-04-02). Medvi, an AI-operated
+  GLP-1 telehealth company, hit $401M first-year revenue and is tracking ~$1.8B
+  in 2026 — the closest real-world instantiation of Amodei's 2026 one-person-$1B
+  prediction. Scored **partially** (not achieved): Medvi has two people (founder
+  Matthew Gallagher + brother Elliot), the figure is revenue not valuation, and
+  the milestone is contested (FDA warning, lawsuits). Added 3 reputable evidence
+  links (PYMNTS/NYT, NewsNation, Techdirt). Lifts H1 credit-weighted hit-rate to
+  0.75; adds a +273-day lead/lag data point.
+- Surveyed recent statements (G7 US-led AI coalition call 2026-06-17; Bloomberg
+  one-direct-report profile 2026-06-10/11) — no NEW dated, scoreable forecasts
+  to log beyond the already-tracked *Policy on the AI Exponential* essay.
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
