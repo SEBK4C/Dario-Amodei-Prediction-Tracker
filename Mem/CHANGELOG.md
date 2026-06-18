@@ -5,6 +5,18 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-18T17:04:41+00:00
+
+- Deterministic refresh: 24 predictions (achieved: 1, in_window: 19, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- EXPAND: added `trillions_ai_revenue_before_2030` — Dario's "trillions of dollars
+  in revenue before 2030 / low hundreds of billions by 2028" forecast from the
+  Dwarkesh podcast (2026-02-13), a new scoreable macroeconomic checkpoint.
+- Scanned June 11-18 2026 news (G7 Évian address, "resist the temptation to
+  splinter", June-18 OpenAI-departure remarks): policy/historical statements with
+  no new dated, scoreable capability/timeline forecast — logged, not added.
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).

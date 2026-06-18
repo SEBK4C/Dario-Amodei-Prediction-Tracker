@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-18
 
 predictions:
   # ----------------------------------------------------------------------
@@ -414,6 +414,31 @@ predictions:
     notes: >-
       Amodei explicitly frames this as aspirational, not a default forecast.
       Conditional 5-10y horizon -> ~2036. Pending.
+
+  - id: trillions_ai_revenue_before_2030
+    theme: economy_jobs
+    quote: "It is hard for me to see that there won't be trillions of dollars in revenue before 2030. The revenue's going into the low hundreds of billions by 2028, and then the country of geniuses accelerates it to trillions."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://singjupost.com/anthropic-ceo-dario-amodeis-interview-on-dwarkesh-podcast-transcript/"
+    predicted_horizon_verbatim: "trillions of dollars in revenue before 2030 (low hundreds of billions by 2028)"
+    predicted_date: 2029-12-31
+    status: in_window
+    confidence: medium
+    tags: [macroeconomics, ai_revenue]
+    evidence:
+      - url: "https://singjupost.com/anthropic-ceo-dario-amodeis-interview-on-dwarkesh-podcast-transcript/"
+        date: 2026-02-13
+        note: "Transcript of the Dwarkesh episode containing the trillions-before-2030 and hundreds-of-billions-by-2028 revenue projection."
+    notes: >-
+      Industry-wide AI revenue forecast, not Anthropic-specific. Two scoreable
+      checkpoints: 'low hundreds of billions by 2028' and 'trillions before
+      2030'. Normalized to end of the outer window (2029-12-31); the 2028
+      checkpoint is tracked in notes/evidence. Same Dwarkesh episode as the
+      'country of geniuses' hunch record. Snippet-sourced; medium confidence
+      pending verbatim verification against the primary audio/transcript.
 
   # ----------------------------------------------------------------------
   # Safety / scaling (ASL / interpretability)
