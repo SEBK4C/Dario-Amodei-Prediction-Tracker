@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-18
 
 predictions:
   # ----------------------------------------------------------------------
@@ -365,12 +365,17 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: "Fortune: Amodei (and Altman) walking back the jobs-apocalypse framing ahead of IPOs; reframes automation as a multiplier of output ('automate 90%, everyone does the other 10%')."
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. Tracking note: by May 2026 Amodei had begun partly walking this
+      back (Jevons-paradox / output-multiplier framing, Fortune 2026-05-26); the
+      labor-market data so far shows no 10-20% unemployment, so the strong version
+      looks unlikely on the original horizon.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs
@@ -414,6 +419,32 @@ predictions:
     notes: >-
       Amodei explicitly frames this as aspirational, not a default forecast.
       Conditional 5-10y horizon -> ~2036. Pending.
+
+  - id: ai_revenue_100b_2026_1t_2027
+    theme: economy_jobs
+    quote: "I could assume that the revenue will continue growing 10x a year, so it'll be $100 billion at the end of 2026 and $1 trillion at the end of 2027."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+    predicted_horizon_verbatim: "$100B end of 2026; $1T end of 2027 (10x/year)"
+    predicted_date: 2027-12-31
+    status: in_window
+    confidence: medium
+    tags: [ai_revenue, macroeconomics]
+    evidence:
+      - url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+        date: 2026-02-14
+        note: "Fortune coverage of the Dwarkesh interview; reports the 10x/year revenue path ($100B end-2026, $1T end-2027) and his 'off by a year -> bankrupt' framing."
+    notes: >-
+      Stated as a compute-planning assumption ("I could assume...") rather than a
+      flat forecast, hence confidence medium. Two checkpoints: AI revenue ~$100B
+      by end of 2026 and ~$1T by end of 2027; range normalized to END (2027-12-31).
+      Verbatim quote captured from the Dwarkesh transcript via search snippet
+      (primary page CDN-blocked at fetch time, 2026-06-18); verify exact wording
+      against the primary transcript when accessible. Highly scoreable against
+      public AI-revenue figures.
 
   # ----------------------------------------------------------------------
   # Safety / scaling (ASL / interpretability)
