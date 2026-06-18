@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-18
 
 predictions:
   # ----------------------------------------------------------------------
@@ -161,6 +161,37 @@ predictions:
         date: 2026-02-13
         note: "Episode listing confirming the 2026-02-13 date."
     notes: "'Country of geniuses' hunch. Range normalized to end of 2027. Snippet-sourced."
+
+  - id: dwarkesh_90pct_country_of_geniuses_10yr
+    theme: agi_timeline
+    quote: "On the basic hypothesis of, as you put it, within ten years we'll get to what I call a 'country of geniuses in a data center', I'm at 90% on that."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://singjupost.com/anthropic-ceo-dario-amodeis-interview-on-dwarkesh-podcast-transcript/"
+    predicted_horizon_verbatim: "within ten years (90% confidence)"
+    predicted_date: 2036-02-13
+    status: in_window
+    confidence: high
+    tags: [calibration_anchor]
+    evidence:
+      - url: "https://thezvi.substack.com/p/on-dwarkesh-patels-2026-podcast-with"
+        date: 2026-02-16
+        note: "Zvi Mowshowitz's detailed write-up of the episode corroborating the 90%/10-year framing."
+    notes: >-
+      High-confidence OUTER bound from the same episode as the near-term hunch
+      (dwarkesh_2026_country_of_geniuses_hunch, '2026, maybe 2027'). This 90% /
+      10-year anchor pins the tail of Amodei's subjective distribution and is the
+      key calibration point: it brackets the aggressive near-term forecasts with a
+      far more confident long horizon. '10 years' from Feb 2026 normalized to
+      2036-02-13. He framed the residual ~10% as 'irreducible' geopolitical /
+      operational risk (Taiwan, fab loss, internal company turmoil).
+      Deliberately NOT tagged powerful_ai_arrival: that subset feeds the H2
+      horizon-compression regression, which tracks his *earliest/central* arrival
+      estimates. This record is a confidence BOUND (a distribution tail), a
+      different quantity; mixing it in would conflate central estimates with tail
+      probabilities and distort the slope. Kept as a standalone calibration anchor.
 
   - id: policy_exponential_year_or_two
     theme: agi_timeline
