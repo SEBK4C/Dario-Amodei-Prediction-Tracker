@@ -5,6 +5,21 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-18T21:05:54+00:00
+
+- Deterministic refresh: 24 predictions (achieved: 1, in_window: 19, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- **Research (NEW prediction +1 → 24):** Added `ai_industry_trillions_revenue_before_2030`
+  — Amodei on the Feb 2026 Dwarkesh podcast: "It is hard for me to see that there
+  won't be trillions of dollars in revenue before 2030," tied to a ~2028 'low
+  hundreds of billions' milestone and his 10x/yr growth model ("off by a year ...
+  you go bankrupt"). theme=economy_jobs, medium confidence; primary=Dwarkesh,
+  corroborated by Fortune (2026-02-14) and DCD (2026-02-16).
+- Reviewed but did NOT log (no new dated, scoreable prediction): Bloomberg *The
+  Circuit with Emily Chang* (2026-06-17, OpenAI/Pentagon retrospective) and the
+  Pentagon "supply-chain risk" dispute coverage (an event, not a forecast).
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).

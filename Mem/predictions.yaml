@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-18
 
 predictions:
   # ----------------------------------------------------------------------
@@ -415,8 +415,35 @@ predictions:
       Amodei explicitly frames this as aspirational, not a default forecast.
       Conditional 5-10y horizon -> ~2036. Pending.
 
-  # ----------------------------------------------------------------------
-  # Safety / scaling (ASL / interpretability)
+  - id: ai_industry_trillions_revenue_before_2030
+    theme: economy_jobs
+    quote: "It is hard for me to see that there won't be trillions of dollars in revenue before 2030."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast (Feb 2026 interview on Anthropic's financial model)"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+    predicted_horizon_verbatim: "trillions of dollars in revenue before 2030"
+    predicted_date: 2030-12-31
+    status: in_window
+    confidence: medium
+    tags: [macroeconomics, ai_revenue, scaling]
+    evidence:
+      - url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+        date: 2026-02-14
+        note: "Fortune coverage of the Dwarkesh interview; quotes the 10x/yr growth model and 'off by a year ... you go bankrupt' caveat."
+      - url: "https://www.datacenterdynamics.com/en/news/anthropic-ceo-the-way-you-buy-these-data-centers-if-youre-off-by-a-couple-years-can-be-ruinous/"
+        date: 2026-02-16
+        note: "DCD coverage corroborating the capex/revenue framing tied to the trillions-by-2030 trajectory."
+    notes: >-
+      New economic-trajectory forecast (added 2026-06-18). On the Dwarkesh
+      podcast Amodei tied the 'country of geniuses' timeline to revenue: a ~2028
+      milestone of 'low hundreds of billions' accelerating to 'trillions ...
+      before 2030', with a slower scenario stretching 'until 2030'. Range
+      normalized to END (2030-12-31). Conditional on his 10x/yr growth model
+      holding (he warns being 'off by a year' on that rate risks bankruptcy).
+      Snippet/coverage-sourced; medium confidence pending verbatim verification
+      against the primary Dwarkesh transcript (CDN-blocked at fetch time).
   # ----------------------------------------------------------------------
   - id: asl3_by_2025
     theme: safety_scaling
