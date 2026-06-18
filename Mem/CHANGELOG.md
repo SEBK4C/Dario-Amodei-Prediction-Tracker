@@ -5,6 +5,23 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-18T08:05:25+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- RESEARCH: Strengthened `entry_level_white_collar_jobs` with a primary-sourced
+  2026-05-05 reframing — at Anthropic's financial-services briefing (Lower
+  Manhattan, onstage with Jamie Dimon), Amodei pivoted to a Jevons-paradox/
+  augmentation framing ("If you automate 90% of the job, then everyone does the
+  10% of the job"). Logged as a partial walk-back, not a retraction: the numeric
+  forecast and its 2030 window stand, and Yale Budget Lab data shows no material
+  labor-mix shift yet. Source: Fortune 2026-05-05 (corroborated by Fortune
+  2026-05-26, Technology Magazine, AI Magazine).
+- Scanned for new dated predictions since 2026-06-16 (Policy on the AI
+  Exponential, June 10, already tracked). No new falsifiable, primary-sourced
+  forecast to add this cycle.
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
