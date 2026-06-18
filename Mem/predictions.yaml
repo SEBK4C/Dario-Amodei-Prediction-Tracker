@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-18
 
 predictions:
   # ----------------------------------------------------------------------
@@ -179,9 +179,14 @@ predictions:
       - url: "https://www.semafor.com/article/06/11/2026/anthropics-amodei-calls-for-workers-rights-over-ai"
         date: 2026-06-11
         note: "Coverage of his most recent essay (June 10 2026)."
+      - url: "https://www.washingtonpost.com/business/2026/06/10/anthropic-dario-amodei-ai/52f6800a-6510-11f1-bdd4-805ebb99a693_story.html"
+        date: 2026-06-10
+        note: "WaPo: same-day coverage of the essay rollout and the accompanying $200M societal-impact research pledge."
     notes: >-
-      Most recent essay as of 2026-06-16. Conditional on scaling laws continuing.
-      'A year or two' from June 2026 normalized to mid-2028.
+      Most recent essay as of 2026-06-18. Conditional on scaling laws continuing.
+      'A year or two' from June 2026 normalized to mid-2028. Rolled out alongside
+      a $200M pledge to research AI's economic impact and an ABC News exclusive
+      calling for binding, enforceable frontier-AI regulation.
 
   # ----------------------------------------------------------------------
   # AI writing code / software automation
