@@ -365,12 +365,29 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/"
+        date: 2026-05-05
+        note: >-
+          Reframing: at an Anthropic financial-services briefing Amodei invokes the
+          Jevons paradox (automation as an output multiplier, not just a job
+          destroyer), while cautioning "AI is moving faster than all these previous
+          technologies."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: >-
+          Walk-back coverage (alongside Altman) ahead of reported ~$1T IPOs. Amodei:
+          "If you automate 90% of the job, then everyone does the 10% of the job ...
+          the 10% kind of expands to be 100% of what people do and kind of 10-times
+          their productivity."
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. Update (May 2026): Amodei has begun walking this back, reframing
+      automation via the Jevons paradox as an output multiplier rather than a net
+      job destroyer (see 2026-05-05 and 2026-05-26 evidence). The original 1-5yr
+      window remains open; the softened framing is tracked but does not retract the
+      dated claim.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs

@@ -5,6 +5,18 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 4 — 2026-06-18T06:06:49+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (EXPAND): no genuinely new dated prediction since 2026-06-17; the June 10
+  "Policy on the AI Exponential" essay and the Feb 13 Dwarkesh "end of the exponential"
+  episode are already tracked. Strengthened `entry_level_white_collar_jobs` with two
+  May 2026 Fortune sources documenting Amodei's walk-back / Jevons-paradox reframing
+  ("If you automate 90% of the job, then everyone does the 10% of the job"). Original
+  1–5yr window remains open.
+
+
 ## Iteration 3 — 2026-06-17T06:45:52+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
