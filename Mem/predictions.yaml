@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-18
 
 predictions:
   # ----------------------------------------------------------------------
@@ -414,6 +414,34 @@ predictions:
     notes: >-
       Amodei explicitly frames this as aspirational, not a default forecast.
       Conditional 5-10y horizon -> ~2036. Pending.
+
+  - id: trillions_ai_revenue_before_2030
+    theme: economy_jobs
+    quote: "It is hard for me to see that there won't be trillions of dollars in revenue before 2030."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast — 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://www.youtube.com/watch?v=O18IcnyGEmw"
+    predicted_horizon_verbatim: "trillions of dollars in revenue before 2030"
+    predicted_date: 2029-12-31
+    status: in_window
+    confidence: medium
+    tags: [ai_revenue, macroeconomics]
+    evidence:
+      - url: "https://www.youtube.com/watch?v=O18IcnyGEmw"
+        date: 2026-02-13
+        note: "Clip titled 'AI Will Hit Trillions Before 2030 — Dario Amodei' carrying the verbatim line."
+      - url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+        date: 2026-02-14
+        note: "Fortune coverage of the same Dwarkesh interview: the revenue path and the '$1T-or-bankrupt' compute remark."
+    notes: >-
+      Industry-wide AI revenue scenario from the same Feb 2026 Dwarkesh episode
+      as dwarkesh_2026_country_of_geniuses_hunch. He sketches revenue reaching
+      'low hundreds of billions' by 2028, accelerating to trillions thereafter;
+      'before 2030' normalized to 2029-12-31. Secondary/snippet-sourced (primary
+      transcript was paywalled/403 at fetch time) — confidence medium pending a
+      verbatim check against the full transcript.
 
   # ----------------------------------------------------------------------
   # Safety / scaling (ASL / interpretability)
