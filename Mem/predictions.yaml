@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-18
 
 predictions:
   # ----------------------------------------------------------------------
@@ -365,12 +365,60 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/"
+        date: 2026-05-05
+        note: "Fortune: Amodei begins reframing the 'bloodbath' narrative via Jevons paradox (multiplier, not destroyer)."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: "Fortune: at an Anthropic financial-services briefing (with JPMorgan's Jamie Dimon) Amodei pivots to 'automate 90% → everyone does the 10%' — a softened stance ahead of IPO."
+      - url: "https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf"
+        date: 2026-06-11
+        note: "Anthropic Economic Policy Framework: despite softer rhetoric, still institutionalizes the displacement forecast — policy tiers calibrated to ~5%, ~10%, and beyond-historical-peak unemployment, plus a $350M displacement fund."
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. RECALIBRATION (now tracked): by May-Jun 2026 Amodei had partly
+      walked back the headline framing toward a Jevons-paradox / productivity-
+      multiplier view (see jobs_jevons_reframe_2026), while Anthropic's June 2026
+      Economic Policy Framework still plans for unemployment rising to ~10%+ —
+      i.e. the underlying displacement forecast persists even as the rhetoric
+      softens. Window stays open; not yet resolvable.
+
+  - id: jobs_jevons_reframe_2026
+    theme: economy_jobs
+    quote: "If you automate 90% of the job, then everyone does the 10% of the job, and the 10% expands to be 100% of what people do and 10-times their productivity."
+    speaker: Dario Amodei
+    date_said: 2026-05-26
+    venue: "Anthropic financial-services press briefing (onstage with JPMorgan's Jamie Dimon), reported by Fortune"
+    primary_url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+    archive_url: ""
+    predicted_horizon_verbatim: "structural / long-run (no fixed date)"
+    predicted_date: 2030-05-26
+    status: unverifiable
+    confidence: medium
+    tags: [labor_market, recalibration, jevons_paradox]
+    evidence:
+      - url: "https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/"
+        date: 2026-05-05
+        note: "Fortune: first documented shift from 'white-collar bloodbath' to a Jevons-paradox framing."
+      - url: "https://the-decoder.com/sam-altman-and-dario-amodei-walk-back-their-ai-job-apocalypse-predictions/"
+        date: 2026-05-26
+        note: "The Decoder corroborates the walk-back and the 90/10 productivity-multiplier quote."
+      - url: "https://aimagazine.com/news/altman-amodei-drop-ai-job-predictions"
+        date: 2026-05-26
+        note: "AI Magazine: contextualizes Altman + Amodei both softening jobs predictions ahead of IPOs."
+    notes: >-
+      Recalibration of entry_level_white_collar_jobs. Where the 2025 Axios claim
+      forecast ~50% of entry-level white-collar jobs lost and 10-20% unemployment,
+      Amodei now frames automation as a productivity multiplier (Jevons paradox):
+      the residual 10% of human work expands to fill freed capacity. It is a
+      qualitative, dateless structural claim, so status is `unverifiable`
+      (excluded from calibration scoring); predicted_date is set to the same 2030
+      labor horizon purely for grouping. Logged to capture the direction and
+      timing of his stance change — a key input to the lead/lag and calibration
+      analysis. NB: Anthropic's June 2026 Economic Policy Framework still budgets
+      for large displacement, so this is a rhetorical softening, not a retraction.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs
