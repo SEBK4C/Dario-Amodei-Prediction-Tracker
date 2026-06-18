@@ -5,6 +5,21 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-18T11:06:10+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (`/research daily`): swept public statements since the 2026-06-10
+  essay. No new *dated* primary-source prediction to add. Strengthened
+  `entry_level_white_collar_jobs` with a now-multiply-sourced citation of
+  Amodei's May 2026 Jevons-paradox walk-back (Fortune ×2, the-decoder, AI
+  Magazine, Technology Magazine); status held at `in_window` — rhetorical
+  reframing, not a resolution of the dated 2030 unemployment claim.
+- Reviewed but did NOT log (no scoreable resolution): "Medvi" reported as a
+  ~$401M first-year, two-person startup — does not meet Amodei's one-employee
+  $1B-company bar; that prediction stays `in_window` to 2026-12-31.
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
