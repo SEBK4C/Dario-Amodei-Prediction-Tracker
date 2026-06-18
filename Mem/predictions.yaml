@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-18
 
 predictions:
   # ----------------------------------------------------------------------
@@ -365,12 +365,30 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/"
+        date: 2026-05-05
+        note: >-
+          Reframing: at an Anthropic financial-services press briefing in Lower
+          Manhattan (onstage with JPMorgan CEO Jamie Dimon) Amodei recast
+          automation as a productivity multiplier — "If you automate 90% of the
+          job, then everyone does the 10% of the job. And the 10% kind of expands
+          to be 100% of what people do and kind of 10xs their productivity." Softens
+          the 2025 "bloodbath" framing.
+      - url: "https://www.bloomberg.com/opinion/articles/2026-06-15/the-ai-jobs-crisis-no-one-is-talking-about"
+        date: 2026-06-15
+        note: >-
+          Bloomberg (2026-06-15) re-reports the Dimon-event remark and notes Amodei
+          now tends to pair ~5-10% GDP growth with ~10% unemployment rather than the
+          earlier 10-20% range — a partial walk-back on magnitude, not a resolution.
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. By May-June 2026 Amodei had partly walked this back with a
+      Jevons-paradox / productivity-multiplier framing (see evidence) and softened
+      the unemployment figure toward ~10%. Kept `in_window`: the 1-5yr window is
+      still open and the labor-market outcome is unresolved; the reframing is a
+      hedge on magnitude, not evidence the prediction hit or missed.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs
