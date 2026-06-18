@@ -5,6 +5,22 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-18T19:04:45+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (`/research daily`): reviewed Dario Amodei activity since the June 10
+  *Policy on the AI Exponential* essay — the June 17 2026 G7 address at
+  Évian-les-Bains ("resist the temptation to splinter") and the June 11 2026
+  call for binding AI regulation. Both are **policy advocacy**, not new dated
+  capability forecasts, so no new scoreable prediction was added (every record
+  requires an explicit dated horizon + primary source). Context noted: the U.S.
+  reportedly banned export of Anthropic's most powerful models (~June 2026), and
+  Gary Marcus has a standing $100k bet against "smarter than almost all humans
+  by end of 2027" — a counter-signal for the in-window AGI-timeline records.
+  No prediction windows elapsed; no status changes.
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
