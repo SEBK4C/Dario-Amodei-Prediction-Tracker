@@ -394,6 +394,31 @@ predictions:
       No precise horizon given; normalized to a 5-year scenario window
       (2031-01-20). Confidence medium; hard to score objectively.
 
+  - id: trillions_ai_revenue_before_2030
+    theme: economy_jobs
+    quote: "It is hard for me to see that there won't be trillions of dollars in revenue before 2030."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: ""
+    predicted_horizon_verbatim: "before 2030"
+    predicted_date: 2029-12-31
+    status: in_window
+    confidence: medium
+    tags: [macroeconomics, revenue, ai_industry]
+    evidence:
+      - url: "https://www.youtube.com/watch?v=O18IcnyGEmw"
+        date: 2026-02-13
+        note: "Clip titled 'AI Will Hit Trillions Before 2030 — Dario Amodei' from the Dwarkesh conversation."
+    notes: >-
+      Revenue prediction for the AI industry (not Anthropic alone): Amodei
+      argues annualized AI revenue grows from low hundreds of billions (~2028)
+      to trillions before 2030. Falsifiable economic claim; window resolves end
+      of 2029. Quote is snippet-sourced from the Feb 2026 Dwarkesh podcast and
+      corroborated across multiple summaries; confidence medium pending a
+      verbatim-transcript citation.
+
   - id: developing_world_gdp_20pct_dream
     theme: economy_jobs
     quote: "A dream scenario... would be 20% annual GDP growth rate in the developing world, with 10% each coming from AI-enabled economic decisions and the natural spread of AI-accelerated technologies."

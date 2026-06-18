@@ -5,6 +5,17 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 4 — 2026-06-18T01:05:38+00:00
+
+- Deterministic refresh: 24 predictions (achieved: 1, in_window: 19, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- EXPAND (research): added `trillions_ai_revenue_before_2030` — Amodei's claim
+  (Dwarkesh podcast, 2026-02-13) that "It is hard for me to see that there won't
+  be trillions of dollars in revenue before 2030." Falsifiable economy_jobs
+  prediction; window resolves 2029-12-31; confidence medium (snippet-sourced).
+- No status changes to existing predictions; no windows elapsed this cycle.
+
+
 ## Iteration 3 — 2026-06-17T06:45:52+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
