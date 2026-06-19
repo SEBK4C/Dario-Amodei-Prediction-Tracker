@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -365,12 +365,45 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: "Fortune: by May 2026 Amodei is publicly softening the jobs-apocalypse framing (see jevons_paradox_jobs_expand_2026)."
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. UPDATE (2026-05): Amodei has begun partly walking this back with a
+      Jevons-paradox 'augmentation not replacement' framing — now tracked as its
+      own record (jevons_paradox_jobs_expand_2026).
+
+  - id: jevons_paradox_jobs_expand_2026
+    theme: economy_jobs
+    quote: "If you automate 90% of the job, then everyone does the 10% of the job. And the 10% kind of expands to be 100% of what people do and kind of 10xs their productivity."
+    speaker: Dario Amodei
+    date_said: 2026-05-05
+    venue: "Anthropic 'Briefing: Financial Services' event, New York (onstage with JPMorganChase CEO Jamie Dimon)"
+    primary_url: "https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/"
+    archive_url: ""
+    predicted_horizon_verbatim: "no precise date (near-term AI era)"
+    predicted_date: 2028-05-05
+    status: in_window
+    confidence: medium
+    tags: [labor_market, jevons_paradox, walk_back]
+    evidence:
+      - url: "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
+        date: 2026-05-05
+        note: "Fortune coverage of the same Anthropic financial-services briefing where Amodei and Dimon shared a stage."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: "Fortune: Amodei (and Altman) softening the AI jobs-apocalypse framing ahead of IPOs."
+    notes: >-
+      A Jevons-paradox reframing that partly walks back the May-2025 '50% of
+      entry-level white-collar jobs / ~20% unemployment' claim
+      (entry_level_white_collar_jobs): augmentation rather than wholesale
+      replacement. Not a hard dated forecast; the verbal horizon is normalized to
+      a ~2-year near-term window (2028-05-05) and scored cautiously (confidence
+      medium) because it is hard to verify objectively. Logged to track the shift
+      in his public stance for calibration analysis.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs

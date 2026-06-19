@@ -5,6 +5,18 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 6 — 2026-06-19T12:06:29+00:00
+
+- Deterministic refresh: 24 predictions (achieved: 1, in_window: 19, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (/research daily): added `jevons_paradox_jobs_expand_2026` — Amodei's
+  2026-05-05 Jevons-paradox reframing ("automate 90% of the job… the 10% expands
+  to 100%") at Anthropic's Financial Services briefing with Jamie Dimon. This
+  partly walks back the May-2025 "50% of entry-level white-collar jobs / ~20%
+  unemployment" claim; cross-linked as evidence on `entry_level_white_collar_jobs`.
+  Sources: Fortune (2026-05-05, 2026-05-26).
+
+
 ## Iteration 5 — 2026-06-19T06:47:50+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
