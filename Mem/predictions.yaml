@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -161,6 +161,32 @@ predictions:
         date: 2026-02-13
         note: "Episode listing confirming the 2026-02-13 date."
     notes: "'Country of geniuses' hunch. Range normalized to end of 2027. Snippet-sourced."
+
+  - id: dwarkesh_2026_revenue_low_hundreds_billions_2028
+    theme: anthropic_milestone
+    quote: "In 2028, we get the real country of geniuses. The revenue has been going into the low hundreds of billions by 2028."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+    predicted_horizon_verbatim: "low hundreds of billions by 2028"
+    predicted_date: 2028-12-31
+    status: pending
+    confidence: medium
+    tags: [revenue, scaling]
+    evidence:
+      - url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+        date: 2026-02-14
+        note: "Fortune coverage of the same podcast; reports Amodei's revenue ramp forecast and the capex risk if the timeline slips by a year."
+    notes: >-
+      Anthropic-revenue forecast tied to the 2028 'real country of geniuses'
+      milestone. 'by 2028' normalized to end of 2028. PENDING: the low-hundreds-
+      of-billions revenue level is a future state not yet reached as of 2026-06.
+      Snippet-sourced quote (primary podcast page blocks automated fetch);
+      corroborated by Fortune's same-day coverage. Companion to the
+      'country of geniuses' hunch from the same episode, separated because this
+      is a distinct, dollar-denominated business milestone.
 
   - id: policy_exponential_year_or_two
     theme: agi_timeline
