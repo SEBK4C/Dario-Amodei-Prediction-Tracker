@@ -5,6 +5,22 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-19T01:05:02+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (EXPAND/STRENGTHEN): strengthened `entry_level_white_collar_jobs`
+  with two new primary/coverage citations — the [Yale Budget Lab AI labor-market
+  tracker](https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market)
+  (no economy-wide AI disruption through late-2025 CPS data) and [Fortune's May
+  2026 report](https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/)
+  on Amodei walking back the jobs-apocalypse framing. ~1 year into a 5-year
+  window, the 10-20% unemployment claim is tracking below the forecast (still
+  in_window through 2030).
+- Reviewed for new dated forecasts (Kamath/People-by-WTF 2026-02-24, India AI
+  Summit remarks) — no NEW quantified, dated prediction beyond existing records.
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).

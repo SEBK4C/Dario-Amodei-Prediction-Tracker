@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -365,12 +365,28 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market"
+        date: 2026-02-02
+        note: >-
+          Yale Budget Lab tracker: through late-2025 CPS data, no clear
+          relationship between AI exposure and unemployment — 'stability, not
+          major disruption at an economy-wide level.' Real-world data is
+          tracking BELOW the 10-20% unemployment claim ~1 year into the window.
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: >-
+          Fortune: Amodei (and Altman) walking back the jobs-apocalypse framing
+          ahead of IPOs; Amodei now suggests automation may expand the work
+          people do (Jevons-paradox framing) rather than eliminate it wholesale.
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. STILL in_window (deadline 2030), but ~1 year in the real-world
+      signal is tracking below the forecast: the Yale Budget Lab finds no
+      economy-wide AI labor disruption through late 2025, and by May 2026 Amodei
+      had begun walking the claim back (Jevons-paradox framing). One of the few
+      records where independent labor-market data lets us score progress directly.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs
