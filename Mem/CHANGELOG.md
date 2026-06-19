@@ -5,6 +5,19 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 6 — 2026-06-19T20:05:39+00:00
+
+- Deterministic refresh: 24 predictions (achieved: 1, in_window: 19, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- **/research (EXPAND):** Added `anthropic_revenue_100b_end_2026` — Amodei's
+  compute/revenue scaling scenario from the Dwarkesh interview (2026-02-13):
+  revenue ~$100B at end of 2026 and ~$1T at end of 2027 if ~10x/yr growth holds,
+  framed via the "$800B ... go bankrupt" compute line. Corroborated by June 2026
+  reporting of ~$47B ARR (StartupHub, 2026-06-14), putting the 10x path live.
+  Surveyed statements through 2026-06-18 (OpenAI-rivalry remarks to Bloomberg);
+  no other new *dated, scoreable* forecast found since the last research run.
+
+
 ## Iteration 5 — 2026-06-19T06:47:50+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).

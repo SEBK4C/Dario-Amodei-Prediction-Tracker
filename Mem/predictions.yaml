@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -486,6 +486,38 @@ predictions:
     notes: >-
       Near-term, concrete, and scoreable by end of 2026. Snippet-sourced quote;
       confidence medium pending primary verification.
+
+  - id: anthropic_revenue_100b_end_2026
+    theme: anthropic_milestone
+    quote: "If my revenue is not $1 trillion dollars, if it's even $800 billion, there's no force on earth, there's no hedge on earth that could stop me from going bankrupt if I buy that much compute."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://finance.yahoo.com/news/anthropic-ceo-dario-amodei-explains-212316721.html"
+    predicted_horizon_verbatim: "~$100B revenue at end of 2026; ~$1T at end of 2027 (if 10x/yr growth holds)"
+    predicted_date: 2026-12-31
+    status: in_window
+    confidence: medium
+    tags: [revenue_scaling, compute]
+    evidence:
+      - url: "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-dario-amodei-company-financial-breakdown-2026-06-14"
+        date: 2026-06-14
+        note: "Anthropic at ~$47B annualized revenue (up from ~$9B at end of 2025) — on the 10x trajectory toward the ~$100B end-2026 figure."
+      - url: "https://www.datacenterdynamics.com/en/news/anthropic-ceo-the-way-you-buy-these-data-centers-if-youre-off-by-a-couple-years-can-be-ruinous/"
+        date: 2026-02-16
+        note: "DCD coverage of the same Dwarkesh remarks: $1T compute starting end of 2027, bankruptcy risk if growth is 5x not 10x."
+    notes: >-
+      Amodei's compute/revenue scaling scenario: revenue ~$100B at end of 2026
+      and ~$1T at end of 2027 IF the observed ~10x/year growth continues, used to
+      illustrate the bankruptcy risk of pre-committing $1T of compute. The
+      scoreable near-term milestone is the ~$100B end-of-2026 figure
+      (predicted_date 2026-12-31); the $1T/2027 leg is the longer conditional.
+      Quote is the memorable bankruptcy line; the $100B/$1T trajectory is the
+      structure of the same hypothetical (see predicted_horizon_verbatim). In
+      window as of 2026-06-19: ~$47B ARR in May 2026 puts the 10x path live but
+      unresolved. Confidence medium (conditional scenario, snippet-verified
+      verbatim).
 
   - id: asl4_threshold_within_2_years
     theme: safety_scaling
