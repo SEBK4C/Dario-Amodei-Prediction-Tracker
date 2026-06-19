@@ -5,6 +5,21 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Research — 2026-06-19 (/research daily)
+
+- Surveyed Dario Amodei / Anthropic activity since the 2026-06-10 essay.
+  - **G7 summit (Évian, 2026-06-17):** Amodei urged democracies to "resist the
+    temptation to splinter" on AI, alongside Altman and Hassabis. Advocacy, not a
+    dated forecast — no new prediction logged.
+  - **One-person $1B company (2026):** Added two evidence links to
+    `one_person_billion_dollar_company_2026`. The best real-world case, **Medvi**
+    (Matthew Gallagher), an AI-built GLP-1 telehealth firm, did $401M in 2025 and
+    is tracking ~$1.8B in 2026 — but with **two** employees and a **projected**
+    (not realized) $1B+ figure. Strong directional evidence; the strict
+    "one-person" threshold is **not** met, so status held `in_window` pending
+    realized year-end figures.
+- No new dated predictions met the "verbatim quote + primary source" bar this run.
+
 ## Iteration 5 — 2026-06-19T06:47:50+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).

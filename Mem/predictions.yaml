@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -483,9 +483,19 @@ predictions:
       - url: "https://www.inc.com/ben-sherry/anthropic-ceo-dario-amodei-predicts-the-first-billion-dollar-solopreneur-by-2026/91193609"
         date: 2026-05-06
         note: "Asked when the first 1-person $1B company would exist, he answered '2026'; later put it at ~70-80% likely."
+      - url: "https://www.inc.com/leila-sheridan/the-no-employee-billion-dollar-startup-how-ai-is-changing-the-face-of-solopreneurship/91326517"
+        date: 2026-06-18
+        note: "Closest real-world case: Medvi (Matthew Gallagher), an AI-built GLP-1 telehealth firm, did $401M in 2025 and is tracking ~$1.8B 2026 revenue with TWO employees (Gallagher + brother) — near, but not literally one person, and the $1B is projected not yet realized."
+      - url: "https://www.newsnationnow.com/health/ai-telehealth-startup-billions-matthew-gallagher/"
+        date: 2026-06-18
+        note: "Independent coverage corroborating Medvi's $20K-to-$1.8B trajectory, two-person team, and reliance on Claude/ChatGPT/Grok."
     notes: >-
-      Near-term, concrete, and scoreable by end of 2026. Snippet-sourced quote;
-      confidence medium pending primary verification.
+      Near-term, concrete, and scoreable by end of 2026. Snippet-sourced original
+      quote; confidence medium pending primary verification. As of 2026-06-19 the
+      best candidate (Medvi) is a TWO-person company whose $1B+ figure is projected
+      2026 revenue, so the strict 'one-person' threshold is not yet met — strong
+      directional evidence but NOT a clean resolution. Holding in_window; revisit
+      at year-end with realized (not projected) figures.
 
   - id: asl4_threshold_within_2_years
     theme: safety_scaling
