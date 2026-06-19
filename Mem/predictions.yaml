@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -207,6 +207,12 @@ predictions:
       - url: "https://devops.com/google-ceo-says-75-of-new-code-is-ai-generated/"
         date: 2026-04-22
         note: "Google: 75% of new code AI-generated (engineer-approved) — high but short of 'essentially all' industry-wide."
+      - url: "https://officechai.com/ai/my-prediction-of-ai-writing-90-of-code-is-already-true-at-anthropic-anthropic-ceo-dario-amodei/"
+        date: 2026-01-13
+        note: "Amodei: 'My prediction of AI writing 90% of code is already true at Anthropic' — he declares the 90% threshold met internally."
+      - url: "https://daringfireball.net/linked/2026/03/13/amodei-ai-code-claim-chowder"
+        date: 2026-03-13
+        note: "Independent 'claim chowder' at the 12-month mark: the industry-wide 'essentially all code' reading did not materialize; assessment calls the original framing too facile."
     notes: >-
       Date confirmed (CFR, Mon 2025-03-10). PARTIALLY: the 90% figure holds
       inside Anthropic and some partners (Amodei reaffirmed at Dreamforce
@@ -365,12 +371,22 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: "Amodei (and Altman, same week) walk back the jobs-apocalypse framing — automation as a productivity multiplier ('automate 90%, everyone does the remaining 10%') rather than mass unemployment. Fortune ties the reversal to looming IPOs."
+      - url: "https://www.budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs"
+        date: 2026-01-01
+        note: "Yale Budget Lab: no meaningful change in unemployment for AI-exposed workers since late 2022 — empirical counter-signal at the ~1yr mark of the window."
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. STATUS WATCH (as of 2026-06): the predictor himself materially
+      softened this in May 2026 (Fortune 2026-05-26), reframing automation as a
+      productivity multiplier rather than mass job loss, and the Yale Budget Lab
+      found no measurable labor-market dislocation ~1 year into the window. Kept
+      in_window (deadline 2030) but trending toward 'missed'/'partially' on the
+      strong 10-20% unemployment reading.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs
