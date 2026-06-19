@@ -5,6 +5,18 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-19T03:05:12+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (EXPAND): no genuinely new dated forecast since the last run. Tracked
+  a previously-flagged development on `entry_level_white_collar_jobs` — Amodei's
+  May 2026 Jevons-paradox reframing softening his "~50% of entry-level
+  white-collar jobs" claim (Fortune 2026-05-05 briefing with Jamie Dimon;
+  Fortune 2026-05-26). Added both as cited evidence; status held `in_window`
+  (forecast not retracted, 1-5yr window open through 2030).
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
