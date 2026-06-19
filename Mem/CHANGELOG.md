@@ -5,6 +5,22 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-19T02:04:02+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (Claude /research daily): swept recent Dario Amodei / Anthropic
+  statements. Most recent public appearance was the **G7 working lunch at
+  Évian-les-Bains, 2026-06-17** (with Altman and Hassabis), where he urged
+  leaders to "resist the temptation to splinter" on AI. Assessed as a policy/
+  diplomacy stance with **no new dated, scoreable capability forecast**, so it
+  was not logged (editorial rule: no dated horizon → no entry). The
+  2026-06-10 "Policy on the AI Exponential" essay is already captured
+  (`policy_exponential_year_or_two`). No status changes this cycle.
+- Watch (next cycle): two end-of-2026 windows resolve in ~6 months —
+  `powerful_ai_as_early_2026` and `one_person_billion_dollar_company_2026`.
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
