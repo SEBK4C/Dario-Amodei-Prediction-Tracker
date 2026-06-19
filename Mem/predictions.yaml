@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -370,7 +370,36 @@ predictions:
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
       evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      (Jevons-paradox framing) — now tracked as `jevons_paradox_jobs_revision_2026`.
+
+  - id: jevons_paradox_jobs_revision_2026
+    theme: economy_jobs
+    quote: "If you automate 90% of the job, then everyone does the 10% of the job, and the 10% expands to be 100% of what people do and 10xs their productivity."
+    speaker: Dario Amodei
+    date_said: 2026-05-05
+    venue: "Anthropic briefing on AI in financial services (alongside JPMorgan's Jamie Dimon), reported by Fortune"
+    primary_url: "https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/"
+    archive_url: "https://finance.yahoo.com/sectors/technology/articles/dario-amodei-spent-last-warning-185540845.html"
+    predicted_horizon_verbatim: "no fixed date (Jevons-paradox reframing of the labor-market thesis)"
+    predicted_date: 2030-05-28
+    status: in_window
+    confidence: medium
+    tags: [labor_market, revision]
+    evidence:
+      - url: "https://technologymagazine.com/news/sam-altman-and-dario-amodei-reverse-job-doom-narrative"
+        date: 2026-05-01
+        note: "Technology Magazine: independent corroboration that both Amodei and Altman reversed the job-doom narrative toward a productivity framing."
+      - url: "https://fortune.com/2026/05/26/dario-amodei-sam-altman-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: "Fortune follow-up: Amodei and Altman both walking back AI jobs-apocalypse forecasts as they eye IPOs."
+    notes: >-
+      Explicit partial revision of `entry_level_white_collar_jobs` (the May 2025
+      '50% of entry-level white-collar jobs / 20% unemployment' claim). Rather than
+      a net headcount collapse, Amodei now invokes the Jevons paradox: automating
+      most of a task expands the residual work and 10xs productivity. Kept in the
+      same 5-year window (2030-05-28) and linked to the original so the calibration
+      analysis can score the thesis as it actually evolved. Confidence medium: the
+      quote is widely reported but the originating briefing has no public transcript.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs
