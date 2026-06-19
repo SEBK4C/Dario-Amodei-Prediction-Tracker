@@ -5,6 +5,21 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 6 — 2026-06-19T21:05:12+00:00
+
+- Deterministic refresh: 24 predictions (achieved: 1, in_window: 19, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- RESEARCH (EXPAND): added `trillions_revenue_before_2030` — Amodei's claim that
+  "it is hard for me to see that there won't be trillions of dollars in revenue
+  before 2030" (Dwarkesh Podcast, 2026-02-13). A distinct, scoreable economic
+  forecast (normalized deadline 2029-12-31) from an episode already in the DB for
+  the separate "country of geniuses" hunch. Corroborated by Zvi Mowshowitz's
+  episode breakdown and Fortune's 2026-02-14 coverage.
+- Surveyed statements through 2026-06-19 (incl. the 2026-06-17 Bloomberg/Emily
+  Chang interview and the 2026-06-10 "Policy on the AI Exponential" essay): no
+  *new* dated, scoreable capability/timeline predictions beyond what is logged.
+
+
 ## Iteration 5 — 2026-06-19T06:47:50+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
