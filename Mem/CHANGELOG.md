@@ -5,6 +5,21 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 6 — 2026-06-19T16:05:16+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (Claude): web sweep for new dated Amodei forecasts since the 2026-06-10
+  essay found only restatements of already-tracked timelines (AGI 2026/2027,
+  end-to-end SWE automation in "a year or two"). No new standalone prediction added.
+- STRENGTHENED `entry_level_white_collar_jobs`: added a dated counter-evidence
+  source for the previously-flagged "to be tracked" walk-back — Fortune (2026-05-05)
+  reporting Amodei's Jevons-paradox reframing at an Anthropic press briefing
+  ("If you automate 90% of the job, then everyone does the 10%..."). Status held
+  at in_window (window open to 2030) but notes now flag the trajectory away from
+  the original 10-20%-unemployment severity.
+
+
 ## Iteration 5 — 2026-06-19T06:47:50+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
