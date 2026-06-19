@@ -5,6 +5,23 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 5 — 2026-06-19T04:06:17+00:00
+
+- Deterministic refresh: 25 predictions (achieved: 1, in_window: 20, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 2 to strengthen.
+- RESEARCH (EXPAND): +2 dated predictions from the Feb 13 2026 Dwarkesh
+  podcast ("end of the exponential"), both resolving by end of 2026 and
+  feeding the compute/economics thesis:
+  - `anthropic_revenue_10x_levels_off_2026` — revenue ~10x/yr ($100M→$1B→~$10B)
+    "starts to level off sometime in 2026".
+  - `anthropic_profitable_2026` — Anthropic "could be profitable in 2026 if the
+    revenue grows fast enough" (conditional).
+  Both logged at LOW confidence: quotes reconstructed from consistent secondary
+  coverage (Zvi, MindStudio, AlphaTarget); the primary dwarkesh.com audio was
+  not fetchable in this environment, so they enter the STRENGTHEN backlog for
+  verbatim verification against the transcript on the next run.
+
+
 ## Iteration 4 — 2026-06-18T06:37:18+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).

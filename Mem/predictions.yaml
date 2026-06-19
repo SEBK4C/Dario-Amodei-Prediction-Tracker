@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -532,3 +532,61 @@ predictions:
       of the H2 subset). Air date approximate (Nov 2025); 'within two years'
       normalized to 2027-11-16. Confidence medium pending verbatim verification
       against the primary transcript.
+
+  # ----------------------------------------------------------------------
+  # Anthropic economics / scaling (Dwarkesh 2026 — "end of the exponential")
+  # These two are the company-trajectory forecasts Amodei made on the same
+  # podcast as dwarkesh_2026_country_of_geniuses_hunch; both resolve by end of
+  # 2026 and feed the compute/economics thesis (revenue as a proxy for the
+  # scaling-efficiency curve).
+  # ----------------------------------------------------------------------
+  - id: anthropic_revenue_10x_levels_off_2026
+    theme: anthropic_milestone
+    quote: "It's been roughly 10x per year — $100 million, then $1 billion, then around $10 billion. I'd guess that starts to level off sometime in 2026."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://thezvi.substack.com/p/on-dwarkesh-patels-2026-podcast-with"
+    predicted_horizon_verbatim: "~10x per year, levels off sometime in 2026"
+    predicted_date: 2026-12-31
+    status: in_window
+    confidence: low
+    tags: [revenue_scaling, economics]
+    evidence:
+      - url: "https://thezvi.substack.com/p/on-dwarkesh-patels-2026-podcast-with"
+        date: 2026-02-13
+        note: "Detailed breakdown reporting Amodei's revenue trajectory (~$100M 2023 → $1B 2024 → $9-10B 2025) and the 'levels off in 2026' guess."
+      - url: "https://www.mindstudio.ai/blog/dario-amodei-80x-growth-anthropic-q1-2026-revenue"
+        date: 2026-02-13
+        note: "Analysis of the same revenue-trajectory claim against Q1 2026 numbers."
+    notes: >-
+      Scoreable by end of 2026: does Anthropic's year-over-year revenue growth
+      fall below ~10x (i.e. visibly 'level off') in 2026? Quote is RECONSTRUCTED
+      from consistent secondary coverage of the Feb 13 2026 Dwarkesh episode; the
+      primary audio/transcript (dwarkesh.com) was not fetchable at log time, so
+      confidence is LOW pending verbatim verification. Revenue is used here as a
+      public proxy for the compute-scaling-efficiency curve the thesis tracks.
+
+  - id: anthropic_profitable_2026
+    theme: anthropic_milestone
+    quote: "We could be profitable in 2026 if the revenue grows fast enough."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://alphatarget.com/insights/anthropic-hypergrowth-the_tightrope/"
+    predicted_horizon_verbatim: "could be profitable in 2026 (conditional on revenue growth)"
+    predicted_date: 2026-12-31
+    status: in_window
+    confidence: low
+    tags: [economics, profitability]
+    evidence:
+      - url: "https://alphatarget.com/insights/anthropic-hypergrowth-the_tightrope/"
+        date: 2026-02-13
+        note: "Coverage of Amodei's profitability remark and Anthropic's spend/revenue tightrope."
+    notes: >-
+      Explicitly conditional ('if the revenue grows fast enough') — a possibility,
+      not a firm forecast — and scoreable by end of 2026. Quote is RECONSTRUCTED
+      from secondary coverage of the Feb 13 2026 Dwarkesh episode; primary not
+      fetchable at log time, so confidence LOW pending verbatim verification.
