@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -486,6 +486,37 @@ predictions:
     notes: >-
       Near-term, concrete, and scoreable by end of 2026. Snippet-sourced quote;
       confidence medium pending primary verification.
+
+  - id: dwarkesh_2028_revenue_low_hundreds_billions
+    theme: anthropic_milestone
+    quote: "I think it's plausible in 2028, we get the real country of geniuses in a data center... the revenue [is] in the low hundreds of billions by 2028."
+    speaker: Dario Amodei
+    date_said: 2026-02-13
+    venue: "Dwarkesh Podcast - 'We are near the end of the exponential'"
+    primary_url: "https://www.dwarkesh.com/p/dario-amodei-2"
+    archive_url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+    predicted_horizon_verbatim: "by 2028 (revenue in the low hundreds of billions)"
+    predicted_date: 2028-12-31
+    status: in_window
+    confidence: medium
+    tags: [revenue_forecast, compute_scaling]
+    evidence:
+      - url: "https://fortune.com/2026/02/14/anthropic-ceo-dario-amodei-spending-capex-risk-ai-revenue-forecasts-bankruptcy/"
+        date: 2026-02-14
+        note: "Fortune coverage of the Dwarkesh interview; the financial model in which revenue 3-10x's annually and capex is sized to it ('off by a year, then you go bankrupt')."
+      - url: "https://www.datacenterdynamics.com/en/news/anthropic-ceo-the-way-you-buy-these-data-centers-if-youre-off-by-a-couple-years-can-be-ruinous/"
+        date: 2026-02-16
+        note: "DCD coverage of the same compute-spend framing tied to the 2027-28 scaling assumption."
+    notes: >-
+      Distinct from dwarkesh_2026_country_of_geniuses_hunch (capability timing):
+      this is the concrete *business/revenue* forecast from the same interview --
+      a 'real country of geniuses' in 2028 with Anthropic/industry revenue in the
+      low hundreds of billions. Supports the compute-scaling-efficiency thesis
+      (revenue ~3-10x/yr funding ~10 GW of compute by 2027-28). Transcript-sourced
+      and corroborated across Fortune/DCD/secondary breakdowns; the canonical
+      Dwarkesh page (primary_url) was CDN-blocked at fetch time, so the verbatim
+      wording should be confirmed against the primary audio. '2028' normalized to
+      2028-12-31; in window as the revenue ramp is under way.
 
   - id: asl4_threshold_within_2_years
     theme: safety_scaling
