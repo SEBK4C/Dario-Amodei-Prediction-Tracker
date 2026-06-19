@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -207,6 +207,9 @@ predictions:
       - url: "https://devops.com/google-ceo-says-75-of-new-code-is-ai-generated/"
         date: 2026-04-22
         note: "Google: 75% of new code AI-generated (engineer-approved) — high but short of 'essentially all' industry-wide."
+      - url: "https://www.bloomberg.com/news/videos/2026-06-17/inside-the-mind-of-anthropic-ceo-dario-amodei-video"
+        date: 2026-06-17
+        note: "Bloomberg 'The Circuit' (Emily Chang) interview: Amodei again restates the 3-6 month / 12-month 90%-then-all-code framing, ~15 months after first stating it — still 'inside Anthropic' rather than industry-wide."
     notes: >-
       Date confirmed (CFR, Mon 2025-03-10). PARTIALLY: the 90% figure holds
       inside Anthropic and some partners (Amodei reaffirmed at Dreamforce
