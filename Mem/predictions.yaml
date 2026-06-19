@@ -6,7 +6,7 @@ meta:
     Anthropic) about AI and Anthropic. Every record links to a primary source;
     verbal horizons are normalized to a single date (range -> END of range) with
     the assumption documented in `notes`.
-  last_updated: 2026-06-16
+  last_updated: 2026-06-19
 
 predictions:
   # ----------------------------------------------------------------------
@@ -365,12 +365,23 @@ predictions:
       - url: "https://www.cnn.com/2025/05/29/tech/ai-anthropic-ceo-dario-amodei-unemployment"
         date: 2025-05-29
         note: "CNN corroborates the 50%-of-entry-level / 10-20% unemployment / 1-5yr claims."
+      - url: "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/"
+        date: 2026-05-26
+        note: >-
+          Walk-back: Amodei reframes automation via the Jevons paradox (efficiency
+          expands demand, e.g. radiology/call-centers) — a productivity multiplier
+          rather than a job destroyer. Cites Yale Budget Lab data showing no
+          significant shift in occupational mix or unemployment duration for
+          high-AI-exposure roles since ChatGPT's adoption.
     notes: >-
       Headline claim: AI could wipe out ~50% of entry-level white-collar jobs and
       push unemployment to 10-20% within 1-5 years. Normalized to end of the
       5-year window (2030-05-28). Quote is the vivid scenario line; full claims in
-      evidence. Note: by May 2026 Amodei had begun partly walking this back
-      (Jevons-paradox framing) — to be tracked.
+      evidence. TRACKING: by mid-2026 Amodei is partly walking this back
+      (Jevons-paradox framing, Fortune 2026-05-26), and contemporaneous Yale Budget
+      Lab data shows no measurable labor dislocation yet — so the original claim is
+      trending toward NOT holding on its near end (1-yr ~ May 2026). Still
+      in_window against the 5-yr end (2030); revisit status as that window closes.
 
   - id: gdp_growth_developed_world_10_15
     theme: economy_jobs

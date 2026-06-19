@@ -5,6 +5,19 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 6 — 2026-06-19T15:04:14+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+- Research (web): scanned for new dated Amodei/Anthropic forecasts since 2026-06-16.
+  No new scoreable prediction met the primary-source bar; the June 18 OpenAI-rivalry
+  remarks contained no dated forecast, and no "powerful AI" arrival has been declared.
+- Evidence update: strengthened `entry_level_white_collar_jobs` with the
+  Jevons-paradox walk-back (Fortune, 2026-05-26) and the contemporaneous Yale Budget
+  Lab finding of no measurable labor dislocation. The claim's near (1-yr ~ May 2026)
+  end is trending toward NOT holding; remains in_window vs. the 5-yr end (2030).
+
+
 ## Iteration 5 — 2026-06-19T06:47:50+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
