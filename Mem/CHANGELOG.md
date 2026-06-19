@@ -5,6 +5,19 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Research pass — 2026-06-19 (Claude /research daily)
+
+- Surveyed public Dario Amodei / Anthropic statements since the 2026-06-10
+  *Policy on the AI Exponential* essay (already in DB). No new dated capability
+  or timeline forecast surfaced this week; the mid-June news cycle was the
+  Bloomberg/Emily Chang interview on leaving OpenAI (positioning, not a dated
+  prediction) and the Department of War contract dispute (policy, not a forecast).
+- STRENGTHENED `entry_level_white_collar_jobs`: added two primary-coverage
+  citations (Fortune 2026-05-05 and 2026-05-26) documenting Amodei's
+  Jevons-paradox **walk-back** of the "~50% of entry-level white-collar jobs"
+  framing. The 2030 window stays open and unresolved; the speaker's framing is
+  now partially retracted. Resolves the prior "to be tracked" note.
+
 ## Iteration 5 — 2026-06-19T06:47:50+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
