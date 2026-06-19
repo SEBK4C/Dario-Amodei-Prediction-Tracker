@@ -5,6 +5,23 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 6 — 2026-06-19T11:05:09+00:00
+
+- Research pass (Claude `/research`): swept recent Dario Amodei coverage
+  (June 10/17 2026 Bloomberg *The Circuit* interview; May 2026 jobs framing).
+- UPDATED `entry_level_white_collar_jobs`: logged the documented softening of
+  the "50% of entry-level white-collar jobs" claim. At an Anthropic
+  financial-services press briefing (with JPMorgan's Jamie Dimon, ~May 2026),
+  Amodei reframed via the Jevons paradox — automation expands/transforms work
+  rather than purely eliminating it. Added Fortune (2026-05-05) as evidence and
+  refined the calibration note. Window unchanged (in_window through 2030).
+- No new dated, primary-sourced predictions found since 2026-06-10
+  (`policy_exponential_year_or_two`); the June Bloomberg interview was
+  management/valuation, not a new AI horizon.
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 0 deadlines within 180d, 0 to strengthen.
+
+
 ## Iteration 5 — 2026-06-19T06:47:50+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
