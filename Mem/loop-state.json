@@ -1,7 +1,7 @@
 {
-  "iteration": 16,
-  "last_run_utc": "2026-06-30T06:29:12+00:00",
-  "as_of_date": "2026-06-30",
+  "iteration": 17,
+  "last_run_utc": "2026-07-01T06:32:59+00:00",
+  "as_of_date": "2026-07-01",
   "prediction_count": 23,
   "status_counts": {
     "in_window": 18,
@@ -93,6 +93,11 @@
     {
       "iteration": 16,
       "at": "2026-06-30T06:29:12+00:00",
+      "count": 23
+    },
+    {
+      "iteration": 17,
+      "at": "2026-07-01T06:32:59+00:00",
       "count": 23
     }
   ]
