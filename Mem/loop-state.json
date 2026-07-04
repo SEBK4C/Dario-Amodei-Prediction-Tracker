@@ -1,7 +1,7 @@
 {
-  "iteration": 19,
-  "last_run_utc": "2026-07-03T08:08:53+00:00",
-  "as_of_date": "2026-07-03",
+  "iteration": 20,
+  "last_run_utc": "2026-07-04T07:46:02+00:00",
+  "as_of_date": "2026-07-04",
   "prediction_count": 23,
   "status_counts": {
     "in_window": 18,
@@ -11,7 +11,10 @@
   },
   "agenda": {
     "resolve_now": [],
-    "deadline_within_180d": [],
+    "deadline_within_180d": [
+      "one_person_billion_dollar_company_2026",
+      "powerful_ai_as_early_2026"
+    ],
     "low_confidence_needs_better_source": []
   },
   "history": [
@@ -108,6 +111,11 @@
     {
       "iteration": 19,
       "at": "2026-07-03T08:08:53+00:00",
+      "count": 23
+    },
+    {
+      "iteration": 20,
+      "at": "2026-07-04T07:46:02+00:00",
       "count": 23
     }
   ]
