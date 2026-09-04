@@ -1,7 +1,7 @@
 {
-  "iteration": 81,
-  "last_run_utc": "2026-09-03T09:28:38+00:00",
-  "as_of_date": "2026-09-03",
+  "iteration": 82,
+  "last_run_utc": "2026-09-04T09:20:25+00:00",
+  "as_of_date": "2026-09-04",
   "prediction_count": 23,
   "status_counts": {
     "in_window": 18,
@@ -19,11 +19,6 @@
     "low_confidence_needs_better_source": []
   },
   "history": [
-    {
-      "iteration": 32,
-      "at": "2026-07-16T07:22:23+00:00",
-      "count": 23
-    },
     {
       "iteration": 33,
       "at": "2026-07-17T07:16:19+00:00",
@@ -267,6 +262,11 @@
     {
       "iteration": 81,
       "at": "2026-09-03T09:28:38+00:00",
+      "count": 23
+    },
+    {
+      "iteration": 82,
+      "at": "2026-09-04T09:20:25+00:00",
       "count": 23
     }
   ]
