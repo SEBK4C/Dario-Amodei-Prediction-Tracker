@@ -5,6 +5,12 @@ directly below the marker by `Scripts/research.py`.
 
 <!-- LOOP-ENTRIES -->
 
+## Iteration 90 — 2026-09-12T09:02:03+00:00
+
+- Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
+- Backlog: 0 to resolve, 3 deadlines within 180d, 0 to strengthen.
+
+
 ## Iteration 89 — 2026-09-11T09:22:20+00:00
 
 - Deterministic refresh: 23 predictions (achieved: 1, in_window: 18, partially: 1, pending: 3).
