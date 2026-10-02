@@ -1,7 +1,7 @@
 {
-  "iteration": 109,
-  "last_run_utc": "2026-10-01T11:23:36+00:00",
-  "as_of_date": "2026-10-01",
+  "iteration": 110,
+  "last_run_utc": "2026-10-02T10:53:39+00:00",
+  "as_of_date": "2026-10-02",
   "prediction_count": 23,
   "status_counts": {
     "in_window": 18,
@@ -14,16 +14,12 @@
     "deadline_within_180d": [
       "ai_replace_engineers_6to12_months",
       "one_person_billion_dollar_company_2026",
+      "ostp_powerful_ai_late_2026_early_2027",
       "powerful_ai_as_early_2026"
     ],
     "low_confidence_needs_better_source": []
   },
   "history": [
-    {
-      "iteration": 60,
-      "at": "2026-08-13T06:16:11+00:00",
-      "count": 23
-    },
     {
       "iteration": 61,
       "at": "2026-08-14T06:12:54+00:00",
@@ -267,6 +263,11 @@
     {
       "iteration": 109,
       "at": "2026-10-01T11:23:36+00:00",
+      "count": 23
+    },
+    {
+      "iteration": 110,
+      "at": "2026-10-02T10:53:39+00:00",
       "count": 23
     }
   ]
